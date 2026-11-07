@@ -1,31 +1,29 @@
-fetched_at=2026-11-08T03:00:36+09:00
+fetched_at=2026-11-08T06:44:41+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
-theme rates: 4 events
+theme rates: 3 events
     - Fed Decision in December?
     - How many Fed rate cuts in 2026?
     - Another Fed rate hike in 2026?
-    - How many Fed rate hikes in 2026?
 theme oil_iran: 6 events
     - US-Iran effective ceasefire continues through...?
     - Israel x Iran ceasefire continues through...?
     - US announces end of Iranian blockade by...?
-    - Will the U.S. invade Iran before 2027?
-    - Pete Hegseth out as Secretary of Defense by December 31?
     - What will WTI Crude Oil (WTI) hit in November 2026?
+    - Pete Hegseth out as Secretary of Defense by December 31?
+    - Iran leadership change by...?
 theme trump: 6 events
     - US-Iran effective ceasefire continues through...?
     - Prime Minister of Israel after the next election?
     - US announces end of Iranian blockade by...?
-    - Who will leave Trump Administration before 2027?
-    - Will the U.S. invade Iran before 2027?
     - Fed Decision in December?
+    - Who will leave Trump Administration before 2027?
+    - Next Press Secretary announced by...?
 theme tariff: 0 events
 theme recession: 0 events
-theme inflation: 3 events
+theme inflation: 2 events
     - October Inflation US - Annual
     - Another Fed rate hike in 2026?
-    - How many Fed rate hikes in 2026?
 theme stocks: 0 events
 theme ai_chips: 6 events
     - Anthropic IPO Closing Market Cap
