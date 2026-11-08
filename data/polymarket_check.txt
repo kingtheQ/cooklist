@@ -1,4 +1,4 @@
-fetched_at=2026-11-08T10:22:57+09:00
+fetched_at=2026-11-08T10:37:09+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 3 events
@@ -17,8 +17,8 @@ theme trump: 6 events
     - Prime Minister of Israel after the next election?
     - US announces end of Iranian blockade by...?
     - Who will leave Trump Administration before 2027?
+    - Next Press Secretary?
     - Next Press Secretary announced by...?
-    - Fed Decision in December?
 theme tariff: 0 events
 theme recession: 0 events
 theme inflation: 2 events
@@ -29,7 +29,7 @@ theme ai_chips: 6 events
     - Anthropic IPO Closing Market Cap
     - AI bubble burst by...?
     - Anthropic IPO by __?
-    - Will Anthropic’s valuation hit __ by December 31?
     - Largest IPO by market cap in 2026?
+    - Will Anthropic’s valuation hit __ by December 31?
     - Next Fable Model (5.2+) released by...?
 theme fx: 0 events
