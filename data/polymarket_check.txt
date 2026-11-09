@@ -1,6 +1,6 @@
-fetched_at=2026-11-09T10:48:30+09:00
+fetched_at=2026-11-09T11:37:20+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - How many Fed rate cuts in 2026?
@@ -23,7 +23,8 @@ theme trump: 6 events
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - Pete Hegseth out as Secretary of Defense by December 31?
 theme tariff: 0 events
-theme recession: 0 events
+theme recession: 1 events
+    - Japan GDP growth in Q3 2026 (QoQ Annualized)?
 theme inflation: 6 events
     - Fed decisions (Sep–Dec)
     - October Inflation China - Annual
@@ -38,5 +39,5 @@ theme ai_chips: 6 events
     - Largest IPO by market cap in 2026?
     - Will Anthropic’s valuation hit __ by December 31?
     - AI bubble burst by...?
-    - Anthropic IPO Date
+    - Jensen Huang announced resignation or removal by December 31?
 theme fx: 0 events
