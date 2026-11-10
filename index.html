@@ -12018,9 +12018,9 @@ ${keywordLine}${bpBlock}${conditionBlock}
         const PY = c => 6 + (hi - c) / span * (H - 14);
         idx.forEach((i, k) => {
           const h = vs[k] / vmx * (H - 6) * 0.4;
-          pxBars += `<rect x="${(X(i) - bw/2).toFixed(1)}" y="${(H - 6 - h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" fill="#8a93b8" opacity="0.35"/>`;
+          pxBars += `<rect x="${(X(i) - bw/2).toFixed(1)}" y="${(H - 6 - h).toFixed(1)}" width="${bw.toFixed(1)}" height="${h.toFixed(1)}" fill="#d9443d" opacity="0.65"/>`;
         });
-        if (idx.length > 1) pxLine = `<polyline points="${idx.map((i, k) => `${X(i).toFixed(1)},${PY(cs[k]).toFixed(1)}`).join(' ')}" fill="none" stroke="#e8605a" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/>`;
+        if (idx.length > 1) pxLine = `<polyline points="${idx.map((i, k) => `${X(i).toFixed(1)},${PY(cs[k]).toFixed(1)}`).join(' ')}" fill="none" stroke="#e8605a" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>`;
         else pxLine = `<circle cx="${X(idx[0]).toFixed(1)}" cy="${PY(cs[0]).toFixed(1)}" r="2.6" fill="#e8605a"/>`;
       }
     }
@@ -12080,22 +12080,21 @@ ${keywordLine}${bpBlock}${conditionBlock}
       return { code, name: it.name || nameFor(code), it, c, tr: newsTrend(it, jm && jm[code]) };
     });
     const intro = document.createElement('div'); intro.style.cssText = 'font-size:12px; color:#c8d0f0; line-height:1.7; margin-bottom:6px;';
-    intro.innerHTML = '線が右上がり＝その銘柄の記事が日々増えている／右下がり＝減っている。点線の最後の点は<b>今日(途中経過)</b>。' +
-      '「+1だけで消える」＝⚡単発、「次の日も、3日後も出る」＝🔥積み上がり。' +
+    intro.innerHTML = '「+1だけで消える」＝⚡単発、「次の日も、3日後も出る」＝🔥積み上がり。' +
       `<br><span style="color:#8a93b8;">市場全体で記事が増えた分(全銘柄の中央値 ×${newsMarketRatio(nv).toFixed(2)})を差し引いて、その銘柄だけの高まりを見ています。</span>`;
     wrap.appendChild(intro);
     // 並べ替え・検索(絞り込みはしない。全銘柄が出る。検索は探すためだけ)
     const ctl = document.createElement('div'); ctl.style.cssText = 'display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; align-items:center;';
-    const sorts = [['trend','📈株価↑×記事'], ['rank','🔥注目順'], ['rise','📈増加幅'], ['today','今日の件数'], ['code','コード順']];
+    const sorts = [['trend','📈株価↑×記事'], ['rank','🔥注目順'], ['rise','📈増加幅'], ['today','今日の件数']];
     sorts.forEach(([k, lab]) => {
       const b = document.createElement('button'); b.className = 'rpg-settings-link' + (world3UI.sort === k ? ' active' : ''); b.textContent = lab;
       b.onclick = () => { playSelect(); world3UI.sort = k; render(); }; ctl.appendChild(b);
     });
     wrap.appendChild(ctl);
     const ctl2 = document.createElement('div'); ctl2.style.cssText = 'display:flex; flex-wrap:wrap; gap:6px; margin-bottom:8px; align-items:center;';
-    [['all','すべて'], ['build','🔥積み上がり'], ['spike','⚡単発'], ['fade','🌫️冷め'], ['quiet','・静か']].forEach(([k, lab]) => {
+    [['build','🔥積み上がり'], ['spike','⚡単発'], ['quiet','・静か']].forEach(([k, lab]) => {
       const b = document.createElement('button'); b.className = 'rpg-settings-link' + (world3UI.label === k ? ' active' : ''); b.textContent = lab;
-      b.onclick = () => { playSelect(); world3UI.label = k; render(); }; ctl2.appendChild(b);
+      b.onclick = () => { playSelect(); world3UI.label = (world3UI.label === k ? 'all' : k); render(); }; ctl2.appendChild(b);
     });
     wrap.appendChild(ctl2);
     const inp = document.createElement('input'); inp.type = 'search'; inp.placeholder = 'コード・社名で探す'; inp.value = world3UI.q;
@@ -12125,7 +12124,7 @@ ${keywordLine}${bpBlock}${conditionBlock}
           g.a.sort(byNews);
           // 2026-10-22 キング指示：「📈株価↑×記事」だけ蛇腹。閉じていても上位5個は常に見える。▼は右上(開＝▼／閉＝▶)。
           const fold = (gi === 0 && g.a.length > 5);
-          const h = document.createElement('div'); h.style.cssText = 'margin:12px 0 2px; padding:6px 8px; background:rgba(157,180,255,0.10); border-left:3px solid #ffd76b; border-radius:3px;' + (fold ? ' display:flex; justify-content:space-between; align-items:flex-start; gap:8px; cursor:pointer;' : '');
+          const h = document.createElement('div'); h.style.cssText = 'margin:12px 0 2px; padding:6px 8px; background:rgba(70,130,255,0.30); border-left:4px solid #5aa0ff; border-radius:3px;' + (fold ? ' display:flex; justify-content:space-between; align-items:flex-start; gap:8px; cursor:pointer;' : '');
           const hInner = `<div style="font-size:14px; color:#fff; font-weight:bold;">${g.t} <span style="font-size:12px; color:#ffd76b;">${g.a.length}銘柄</span></div><div style="font-size:11px; color:#9db4ff; line-height:1.5;">${g.s}</div>`;
           let rest = null;
           if (fold) {
@@ -12362,7 +12361,7 @@ ${keywordLine}${bpBlock}${conditionBlock}
         `<div style="font-size:12px; color:${L.color}; white-space:nowrap;" title="${escapeHtml(L.tip)}">${L.icon} ${L.text}</div>` +
       `</div>` +
       newsSparkSvg(r.it.counts, dts, { color: L.color, px: r.it.px, h: r.it.px ? 90 : 56 }) +
-      `<div style="display:flex; justify-content:space-between; font-size:10px; color:#6f78a0;"><span>${fmtMD(dts[0])}</span>${r.it.px ? `<span><span style="color:${L.color};">━記事数</span> <span style="color:#e8605a;">━終値</span> <span style="color:#8a93b8;">▮出来高</span></span>` : ''}<span>${fmtMD(dts[dts.length-1])}</span></div>` +
+      `<div style="display:flex; justify-content:space-between; font-size:10px; color:#6f78a0;"><span>${fmtMD(dts[0])}</span>${r.it.px ? `<span><span style="color:${L.color};">━記事数</span> <span style="color:#e8605a;">━終値</span> <span style="color:#d9443d;">▮出来高</span></span>` : ''}<span>${fmtMD(dts[dts.length-1])}</span></div>` +
       `<div style="font-size:12px; color:#c8d0f0; margin-top:2px;">直近7日 平均${r.c.aL.toFixed(1)}件/日 ／ それ以前 ${r.c.aP.toFixed(1)}件/日 ／ 昨日 ${r.c.yday}件・今日(途中) ${r.c.today}件 ／ 最多 ${peakV}件(${fmtMD(peakD)})${r.it.capped ? ' ／ ⚠上限到達あり' : ''}</div>` +
       `<div style="font-size:12px; margin-top:1px;">${jiwa}</div>` +
       ((world3UI.sort === 'trend' && r.tr) ? `<div style="font-size:12px; margin-top:1px; color:#c8d0f0;">株価: 5営業日 ${newsPctText(r.tr.ret5)} ／ 25日線との差 ${newsPctText(r.tr.vs25)}</div>` : '');
