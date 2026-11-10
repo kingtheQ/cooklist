@@ -12055,13 +12055,16 @@ ${keywordLine}${bpBlock}${conditionBlock}
     scene.appendChild(frontRow); root.appendChild(scene);
     if (soundOn) startStageBGM('uwasa'); // 曲は「あやしい酒場」(再描画では鳴らし直さない)
     ensureDataDocs(['news_volume.json', 'earnings_jp.json', 'polymarket.json']);
+    // 2026-11-11 キング指示：「ウワサを確認」を2つの枠に分ける。上＝ウワサ①(📈株価↑×記事)、下＝ウワサ②(Polymarket)。
     const wrap = document.createElement('div'); wrap.className = 'pw';
-    const t = document.createElement('div'); t.className = 'pw-title'; t.textContent = 'ウワサを確認'; wrap.appendChild(t);
-    // 2026-10-22 キング指示：Polymarketの温度計(折りたためる・▼は右上)。「📈株価↑×記事」は下の一覧の蛇腹に統合(閉じたまま上位5個だけ見える)。単独の上位5個の枠は無くした
-    const pmBox = document.createElement('div'); wrap.appendChild(pmBox);
+    const t = document.createElement('div'); t.className = 'pw-title'; t.textContent = 'ウワサ①'; wrap.appendChild(t);
+    const wrap2 = document.createElement('div'); wrap2.className = 'pw'; wrap2.style.marginTop = '28px';
+    const t2 = document.createElement('div'); t2.className = 'pw-title'; t2.textContent = 'ウワサ②'; wrap2.appendChild(t2);
+    // 2026-10-22 キング指示：Polymarketの温度計(折りたためる・▼は右上)。
+    const pmBox = document.createElement('div'); wrap2.appendChild(pmBox);
     buildPolymarketBox(pmBox);
     pmLiveRefresh();   // 2026-10-23: 保存データが1時間より古ければ、その場で取り直す(失敗したら保存データのまま)
-    root.appendChild(wrap);
+    root.appendChild(wrap); root.appendChild(wrap2);
     const nv = ddoc('news_volume.json');
     const say = (txt, css) => { const d = document.createElement('div'); d.style.cssText = css || 'font-size:13px; color:#9db4ff; line-height:1.7;'; d.textContent = txt; wrap.appendChild(d); };
     if (!nv) {
@@ -12299,7 +12302,7 @@ ${keywordLine}${bpBlock}${conditionBlock}
       evs.forEach(ev => {
         const box2 = document.createElement('div'); box2.style.cssText = 'padding:6px 0; border-top:1px solid rgba(157,180,255,0.15);';
         const end = ev.end ? fmtMD(String(ev.end).slice(0, 10)) : '';
-        box2.innerHTML = `<div style="display:flex; justify-content:space-between; gap:8px; align-items:baseline;"><div style="font-size:12px; color:#fff;">${escapeHtml(pmTitleJa(ev.title))}</div><div style="font-size:10px; color:#6f78a0; white-space:nowrap;">${end ? '〜' + escapeHtml(end) : ''}</div></div>`;
+        box2.innerHTML = `<div style="display:flex; justify-content:space-between; gap:8px; align-items:baseline;"><div style="font-size:16px; color:#fff; font-weight:bold; line-height:1.4;">${escapeHtml(pmTitleJa(ev.title))}</div><div style="font-size:10px; color:#6f78a0; white-space:nowrap;">${end ? '〜' + escapeHtml(end) : ''}</div></div>`;
         (ev.markets || []).forEach(m => {
           const pct = Math.max(0, Math.min(100, (m.yes || 0) * 100));
           const row = document.createElement('div'); row.style.cssText = 'display:flex; align-items:center; gap:6px; margin:3px 0;';
