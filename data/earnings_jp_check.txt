@@ -1,23 +1,23 @@
-FILE kessan.xlsx as_of=None data_rows=222 parsed=218 (うち日付未定=0) skipped=4 dups=0
+FILE kessan.xlsx as_of=None data_rows=310 parsed=306 (うち日付未定=0) skipped=4 dups=0
   SKIPPED ['※ 決算期変更による変則決算期中の会社を含む場合があります。', '', '', '', '', '', '', '']
   SKIPPED ['May include companies with irregular fiscal terms due to changes in the fiscal year.', '', '', '', '', '', '', '']
   SKIPPED ['※ テクニカル上場した会社は、前身となる会社（株式移転等を行った旧上場会社）の決算情報を発表する場合があります。', '', '', '', '', '', '', '']
   SKIPPED ['Technical listed companies may announce the financial information of their predecessor (former listed companies that have transferred stock, etc.)', '', '', '', '', '', '', '']
-FILE kessan09_1106.xlsx as_of=2026-11-05 data_rows=2978 parsed=2974 (うち日付未定=16) skipped=4 dups=218
+FILE kessan09_1106.xlsx as_of=2026-11-05 data_rows=2978 parsed=2974 (うち日付未定=16) skipped=4 dups=304
   SKIPPED ['※ 決算期変更による変則決算期中の会社を含む場合があります。', '', '', '', '', '', '', '']
   SKIPPED ['May include companies with irregular fiscal terms due to changes in the fiscal year.', '', '', '', '', '', '', '']
   SKIPPED ['※ テクニカル上場した会社は、前身となる会社（株式移転等を行った旧上場会社）の決算情報を発表する場合があります。', '', '', '', '', '', '', '']
   SKIPPED ['Technical listed companies may announce the financial information of their predecessor (former listed companies that have transferred stock, etc.)', '', '', '', '', '', '', '']
-  DUP ('1420', '2026-11-11', '第２四半期')
-  DUP ('147A', '2026-11-11', '第２四半期')
-  DUP ('1762', '2026-11-11', '第２四半期')
-  DUP ('1801', '2026-11-11', '第２四半期')
-  DUP ('1810', '2026-11-11', '第２四半期')
-  DUP ('1812', '2026-11-11', '第２四半期')
-  DUP ('1833', '2026-11-11', '第２四半期')
-  DUP ('1871', '2026-11-11', '第２四半期')
-  DUP ('1925', '2026-11-11', '第２四半期')
-  DUP ('1926', '2026-11-11', '第２四半期')
+  DUP ('1384', '2026-11-12', '第２四半期')
+  DUP ('1446', '2026-11-12', '本決算')
+  DUP ('1491', '2026-11-12', '第２四半期')
+  DUP ('150A', '2026-11-12', '第２四半期')
+  DUP ('1662', '2026-11-12', '第２四半期')
+  DUP ('167A', '2026-11-12', '第２四半期')
+  DUP ('1719', '2026-11-12', '第２四半期')
+  DUP ('1808', '2026-11-12', '第２四半期')
+  DUP ('1811', '2026-11-12', '第２四半期')
+  DUP ('1835', '2026-11-12', '第２四半期')
 FILE kessan10_1106.xlsx as_of=2026-11-05 data_rows=229 parsed=225 (うち日付未定=6) skipped=4 dups=0
   SKIPPED ['※ 決算期変更による変則決算期中の会社を含む場合があります。', '', '', '', '', '', '', '']
   SKIPPED ['May include companies with irregular fiscal terms due to changes in the fiscal year.', '', '', '', '', '', '', '']
