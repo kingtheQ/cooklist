@@ -1,42 +1,40 @@
-fetched_at=2026-11-12T05:10:12+09:00
+fetched_at=2026-11-12T10:54:38+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,resolutionSource,restricted,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
     - Fed Decision in March?
     - How many Fed rate cuts in 2026?
+    - What will the Fed rate be at the end of 2026?
     - Another Fed rate hike in 2026?
-    - How many Fed rate hikes in 2026?
 theme oil_iran: 6 events
-    - Israel x Iran ceasefire continues through...?
     - US announces end of Iranian blockade by...?
+    - Israel x Iran ceasefire continues through...?
     - Will the U.S. invade Iran before 2027?
-    - Pete Hegseth out as Secretary of Defense by December 31?
-    - What will WTI Crude Oil (WTI) hit in November 2026?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - What will WTI Crude Oil (WTI) hit in November 2026?
+    - Pete Hegseth out as Secretary of Defense by December 31?
 theme trump: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
     - US announces end of Iranian blockade by...?
     - Will the U.S. invade Iran before 2027?
     - Prime Minister of Israel after the next election?
-    - Pete Hegseth out as Secretary of Defense by December 31?
+    - Russia x Ukraine Ceasefire by...?
 theme tariff: 0 events
-theme recession: 2 events
-    - US recession by end of 2026?
-    - November Unemployment Rate
+theme recession: 0 events
 theme inflation: 3 events
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
     - How high will inflation get in 2026?
 theme stocks: 1 events
-    - S&P 500 (SPY) closes above ___ on November 11?
+    - What will S&P 500 (SPY) hit in November 2026?
 theme ai_chips: 6 events
-    - Anthropic IPO Closing Market Cap
     - Jensen Huang announced resignation or removal by...?
+    - Anthropic IPO Closing Market Cap
+    - Jensen Huang divorce by...?
     - Will Anthropic’s valuation hit __ by December 31?
-    - Anthropic IPO by __?
     - Largest Company end of December 2026?
-    - Largest Company end of November 2026?
+    - AI bubble burst by...?
 theme fx: 0 events
