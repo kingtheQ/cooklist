@@ -1,13 +1,13 @@
-fetched_at=2026-11-13T03:52:40+09:00
+fetched_at=2026-11-13T05:46:15+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
-    - Another Fed rate hike in 2026?
     - How many Fed rate cuts in 2026?
-    - What will the Fed rate be at the end of 2026?
+    - Another Fed rate hike in 2026?
     - NVIDIA VP Kimberly Powell announced resignation or removal by...?
+    - Fed Decision in March?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
     - US announces end of Iranian blockade by...?
@@ -17,8 +17,8 @@ theme oil_iran: 6 events
     - Strait of Hormuz traffic returns to normal by December 31?
 theme trump: 6 events
     - Fed Decision in December?
-    - US announces end of Iranian blockade by...?
     - Russia x Ukraine Ceasefire by...?
+    - US announces end of Iranian blockade by...?
     - Jensen Huang divorce by...?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - Fed Decision in January?
@@ -26,15 +26,15 @@ theme tariff: 0 events
 theme recession: 0 events
 theme inflation: 3 events
     - Another Fed rate hike in 2026?
-    - Fed decisions (Oct-Jan)
     - Fed decisions (Sep–Dec)
+    - Fed decisions (Oct-Jan)
 theme stocks: 1 events
     - S&P 500 (SPY) closes above ___ on November 12?
 theme ai_chips: 6 events
     - Next CEO of NVIDIA?
     - Anthropic IPO Closing Market Cap
-    - Largest Company end of December 2026?
     - Jensen Huang divorce by...?
+    - Largest Company end of December 2026?
     - Anthropic IPO by __?
-    - AI bubble burst by...?
+    - Third Jensen Huang affair reported by December 31?
 theme fx: 0 events
