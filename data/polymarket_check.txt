@@ -1,4 +1,4 @@
-fetched_at=2026-11-12T12:10:35+09:00
+fetched_at=2026-11-12T19:57:51+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,resolutionSource,restricted,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
@@ -13,28 +13,27 @@ theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
     - Will the U.S. invade Iran before 2027?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
-    - What will WTI Crude Oil (WTI) hit in November 2026?
-    - Pete Hegseth out as Secretary of Defense by December 31?
+    - Shipping successfully targeted in Hormuz on...?
+    - US-Iran Final Nuclear Deal by…?
 theme trump: 6 events
     - Fed Decision in December?
-    - Fed Decision in January?
     - US announces end of Iranian blockade by...?
     - Russia x Ukraine Ceasefire by...?
     - Prime Minister of Israel after the next election?
-    - Will the U.S. invade Iran before 2027?
+    - Fed Decision in January?
+    - Jensen Huang divorce by...?
 theme tariff: 0 events
-theme recession: 0 events
-theme inflation: 3 events
+theme recession: 1 events
+    - US recession by end of 2026?
+theme inflation: 2 events
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
-    - How high will inflation get in 2026?
-theme stocks: 1 events
-    - What will S&P 500 (SPY) hit in November 2026?
+theme stocks: 0 events
 theme ai_chips: 6 events
     - Jensen Huang announced resignation or removal by...?
     - Anthropic IPO Closing Market Cap
-    - Largest Company end of December 2026?
     - Jensen Huang divorce by...?
-    - Will Anthropic’s valuation hit __ by December 31?
+    - Largest Company end of December 2026?
     - AI bubble burst by...?
+    - Will Anthropic’s valuation hit __ by December 31?
 theme fx: 0 events
