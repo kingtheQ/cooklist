@@ -1,7 +1,7 @@
-実行 2026-11-12T16:05:33.112853Z / 一覧のxlsx 5件 / 保存済みの最新週 2026-10-26
+実行 2026-11-13T15:32:32.725325Z / 一覧のxlsx 5件 / 保存済みの最新週 2026-11-02
 20261005〜20261009: {'foreign': 14318, 'individual': 880, 'trustbank': -360} 市場=['東証プライム', '東証スタンダード', '東証グロース'] / 保存値との差: foreign=+0, individual=+0, trustbank=-1
 20261013〜20261016: {'foreign': -3654, 'individual': 2192, 'trustbank': -772} 市場=['東証プライム', '東証スタンダード', '東証グロース'] / 保存値との差: foreign=+0, individual=+0, trustbank=+0
 20261019〜20261023: {'foreign': 272, 'individual': -716, 'trustbank': -2243} 市場=['東証プライム', '東証スタンダード', '東証グロース'] / 保存値との差: foreign=+0, individual=+0, trustbank=+0
 20261026〜20261030: {'foreign': -2176, 'individual': -339, 'trustbank': -565} 市場=['東証プライム', '東証スタンダード', '東証グロース'] / 保存値との差: foreign=+0, individual=+0, trustbank=+0
-20261102〜20261106: {'foreign': -715, 'individual': -4801, 'trustbank': 2306} 市場=['東証プライム', '東証スタンダード', '東証グロース']
-追記 1週
+20261102〜20261106: {'foreign': -715, 'individual': -4801, 'trustbank': 2306} 市場=['東証プライム', '東証スタンダード', '東証グロース'] / 保存値との差: foreign=+0, individual=+0, trustbank=+0
+追記 0週
