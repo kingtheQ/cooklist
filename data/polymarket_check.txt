@@ -1,12 +1,12 @@
-fetched_at=2026-11-15T02:01:37+09:00
+fetched_at=2026-11-15T03:42:58+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,featuredOrder,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
+    - How many Fed rate cuts in 2026?
     - How many Fed rate hikes in 2026?
     - NVIDIA VP Kimberly Powell announced resignation or removal by...?
-    - How many Fed rate cuts in 2026?
     - Fed Decision in March?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
@@ -21,7 +21,7 @@ theme trump: 6 events
     - Fed Decision in January?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - Howard Lutnick out as Secretary of Commerce by...?
-    - Jensen Huang divorce by...?
+    - Russia x Ukraine ceasefire agreement by...?
 theme tariff: 0 events
 theme recession: 0 events
 theme inflation: 1 events
