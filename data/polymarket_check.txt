@@ -1,12 +1,12 @@
-fetched_at=2026-11-14T19:14:59+09:00
+fetched_at=2026-11-15T02:01:37+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,featuredOrder,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
     - How many Fed rate hikes in 2026?
-    - How many Fed rate cuts in 2026?
     - NVIDIA VP Kimberly Powell announced resignation or removal by...?
+    - How many Fed rate cuts in 2026?
     - Fed Decision in March?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
@@ -14,25 +14,24 @@ theme oil_iran: 6 events
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - FAA outage attributed to Iran?
     - Strait of Hormuz traffic returns to normal by December 31?
-    - What will WTI Crude Oil (WTI) hit in November 2026?
+    - Iran full airspace closure by...?
 theme trump: 6 events
     - Fed Decision in December?
-    - Fed Decision in January?
     - US announces end of Iranian blockade by...?
+    - Fed Decision in January?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - Howard Lutnick out as Secretary of Commerce by...?
     - Jensen Huang divorce by...?
 theme tariff: 0 events
 theme recession: 0 events
-theme inflation: 2 events
+theme inflation: 1 events
     - How many Fed rate hikes in 2026?
-    - Core PCE MoM - October 2026
 theme stocks: 0 events
 theme ai_chips: 6 events
     - Next CEO of NVIDIA?
     - Jensen Huang rejoins NVIDIA by...?
-    - Anthropic IPO Closing Market Cap
     - Fourth Jensen Huang affair reported by...?
+    - Anthropic IPO Closing Market Cap
     - Jensen Huang divorce by...?
     - Anthropic IPO by __?
 theme fx: 0 events
