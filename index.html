@@ -10519,10 +10519,14 @@ ${keywordLine}${bpBlock}${conditionBlock}
       card.innerHTML =
         '<div class="lt-meta">' + (isPinned ? '📌 ' : '') + skyEsc(it.source) + '｜' + skyEsc(dateTxt) + '</div>' +
         '<div class="lt-head">' + skyEsc(it.head) + '</div>';
-      if (it.explain && it.explain.length) { // 🔰 かんたん解説(2026-10-30 キング指示：開いたまま・本文(◆)の前＝見出しの直下。💡の行は「仮説」なので色を変えて事実と分ける)
-        const ex = document.createElement('details'); ex.className = 'lt-ex'; ex.open = true;
-        ex.innerHTML = '<summary>🔰 かんたん解説</summary>' + it.explain.map(l => '<div class="lt-ex-line' + (l.indexOf('💡') === 0 ? ' lt-ex-hyp' : '') + '">' + skyEsc(l) + '</div>').join('');
-        card.appendChild(ex);
+      // 2026-11-15 キング指示：💡仮説(日本株との接点を含む)を見出しの直下(旧かんたん解説の場所)へ、🔰かんたん解説(用語)は枠の一番下へ
+      const exAll = (it.explain && it.explain.length) ? it.explain : [];
+      const exHyp = exAll.filter(l => l.indexOf('💡') === 0);
+      const exTerm = exAll.filter(l => l.indexOf('💡') !== 0);
+      if (exHyp.length) {
+        const hx = document.createElement('details'); hx.className = 'lt-ex'; hx.open = true;
+        hx.innerHTML = '<summary>💡 仮説</summary>' + exHyp.map(l => '<div class="lt-ex-line lt-ex-hyp">' + skyEsc(l) + '</div>').join('');
+        card.appendChild(hx);
       }
       // 2026-10-30 キング指示：用語の説明(🔰)と🔎深掘りは開いたまま。◆本文と🔗出典リンクだけ「📎 本文・出典」に閉じる
       const foldNodes = []; const bodyBox = document.createElement('div');
@@ -10542,6 +10546,11 @@ ${keywordLine}${bpBlock}${conditionBlock}
       const pin = document.createElement('button'); pin.className = 'rpg-settings-link'; pin.textContent = isPinned ? '📌 はずす' : '📌 のこす';
       pin.addEventListener('click', () => { playSelect(); const ps = lettersLoadPinned(); const k = keyOf(it); if (ps.has(k)) ps.delete(k); else ps.add(k); lettersSavePinned(ps); render(); });
       btns.appendChild(a); btns.appendChild(pin); btns.appendChild(del); card.appendChild(btns);
+      if (exTerm.length) { // 🔰 かんたん解説(用語)は枠の一番下(2026-11-15 キング指示)
+        const ex = document.createElement('details'); ex.className = 'lt-ex'; ex.open = true;
+        ex.innerHTML = '<summary>🔰 かんたん解説</summary>' + exTerm.map(l => '<div class="lt-ex-line">' + skyEsc(l) + '</div>').join('');
+        card.appendChild(ex);
+      }
       root.appendChild(card);
     });
 
@@ -16124,7 +16133,7 @@ ${note}
   }
 
   // 診断用：直近のfetch試行ログ（どのソースがどう失敗したかを画面に出すため）
-  const APP_BUILD = '2026-11-05a';  // 画面に出して、古いキャッシュで動いていないか判別する
+  const APP_BUILD = '2026-11-15a';  // 画面に出して、古いキャッシュで動いていないか判別する
   let runNote = null;           // 一括実行の進行状況(何をしているか画面に出す)
   let pendingNames = {};        // 株価取得中に拾った社名(スキャン終了時にstockNamesへ反映)
   let goldMineDiag = null;
