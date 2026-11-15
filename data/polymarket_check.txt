@@ -1,4 +1,4 @@
-fetched_at=2026-11-15T11:00:18+09:00
+fetched_at=2026-11-15T11:36:27+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
@@ -21,9 +21,10 @@ theme trump: 6 events
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - Next Senate Majority Leader?
     - Prime Minister of Israel after the next election?
-    - Howard Lutnick out as Secretary of Commerce by...?
+    - Russia x Ukraine ceasefire agreement by...?
 theme tariff: 0 events
-theme recession: 0 events
+theme recession: 1 events
+    - China Annual GDP Growth 2026
 theme inflation: 3 events
     - Another Fed rate hike in 2026?
     - Fed decisions (Sep–Dec)
@@ -34,6 +35,6 @@ theme ai_chips: 6 events
     - Jensen Huang rejoins NVIDIA by...?
     - Anthropic IPO Closing Market Cap
     - Anthropic IPO by __?
-    - Largest Company end of December 2026?
     - Jensen Huang divorce by...?
+    - Largest Company end of December 2026?
 theme fx: 0 events
