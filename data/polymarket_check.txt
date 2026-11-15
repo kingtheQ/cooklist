@@ -1,11 +1,11 @@
-fetched_at=2026-11-16T02:40:54+09:00
+fetched_at=2026-11-16T04:21:11+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,turnProviderId,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
-    - How many Fed rate cuts in 2026?
     - Another Fed rate hike in 2026?
     - Fed Decision in January?
+    - How many Fed rate cuts in 2026?
     - Fed decisions (Sep–Dec)
     - South African Reserve Bank Decision in March?
 theme oil_iran: 6 events
