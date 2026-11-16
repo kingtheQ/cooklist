@@ -1,42 +1,42 @@
-fetched_at=2026-11-16T11:16:51+09:00
+fetched_at=2026-11-16T20:03:33+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,turnProviderId,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
     - Another Fed rate hike in 2026?
-    - NVIDIA VP Kimberly Powell announced resignation or removal by...?
     - How many Fed rate cuts in 2026?
-    - Bank of Israel Decision in November?
+    - Fed decisions (Oct-Jan)
+    - NVIDIA VP Kimberly Powell announced resignation or removal by...?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - US announces end of Iranian blockade by...?
-    - Will the U.S. invade Iran before 2027?
+    - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - What will WTI Crude Oil (WTI) hit in November 2026?
-    - Kharg Island no longer under Iranian control by...?
+    - Will the U.S. invade Iran before 2027?
+    - Pete Hegseth out as Secretary of Defense by December 31?
 theme trump: 6 events
     - Fed Decision in December?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - US announces end of Iranian blockade by...?
+    - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - Fed Decision in January?
-    - Will the U.S. invade Iran before 2027?
     - Howard Lutnick out as Secretary of Commerce by...?
+    - Prime Minister of Israel after the next election?
 theme tariff: 0 events
-theme recession: 2 events
-    - China Annual GDP Growth 2026
+theme recession: 1 events
     - US GDP growth in Q4 2026?
-theme inflation: 3 events
+theme inflation: 5 events
     - Another Fed rate hike in 2026?
+    - Fed decisions (Oct-Jan)
+    - Fed decisions December 2026 to March 2027?
     - South Africa Annual Inflation 2026
-    - November Inflation US - Annual
+    - Gas prices on November 16?
 theme stocks: 0 events
 theme ai_chips: 6 events
     - Next CEO of NVIDIA?
     - Jensen Huang rejoins NVIDIA by...?
     - Anthropic IPO Closing Market Cap
-    - Anthropic IPO by __?
+    - Largest Company end of December 2026?
     - Fourth Jensen Huang affair reported by...?
     - Jensen Huang divorce by...?
-theme fx: 1 events
-    - Bank of Japan Decision in December?
+theme fx: 0 events
