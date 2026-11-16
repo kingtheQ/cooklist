@@ -1,13 +1,13 @@
-fetched_at=2026-11-16T08:56:42+09:00
+fetched_at=2026-11-16T11:16:51+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,turnProviderId,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
+    - Another Fed rate hike in 2026?
     - NVIDIA VP Kimberly Powell announced resignation or removal by...?
     - How many Fed rate cuts in 2026?
     - Bank of Israel Decision in November?
-    - How high will 30-year Treasury yield go before 2027?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
@@ -19,19 +19,21 @@ theme trump: 6 events
     - Fed Decision in December?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - US announces end of Iranian blockade by...?
-    - Prime Minister of Israel after the next election?
-    - Next Senate Majority Leader?
+    - Fed Decision in January?
     - Will the U.S. invade Iran before 2027?
+    - Howard Lutnick out as Secretary of Commerce by...?
 theme tariff: 0 events
 theme recession: 2 events
     - China Annual GDP Growth 2026
-    - UK GDP growth in Q4 2026 (QoQ)?
-theme inflation: 1 events
+    - US GDP growth in Q4 2026?
+theme inflation: 3 events
+    - Another Fed rate hike in 2026?
     - South Africa Annual Inflation 2026
+    - November Inflation US - Annual
 theme stocks: 0 events
 theme ai_chips: 6 events
-    - Jensen Huang rejoins NVIDIA by...?
     - Next CEO of NVIDIA?
+    - Jensen Huang rejoins NVIDIA by...?
     - Anthropic IPO Closing Market Cap
     - Anthropic IPO by __?
     - Fourth Jensen Huang affair reported by...?
