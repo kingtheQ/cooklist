@@ -1,4 +1,4 @@
-fetched_at=2026-11-17T13:39:59+09:00
+fetched_at=2026-11-17T14:03:26+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,turnProviderId,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
@@ -30,9 +30,9 @@ theme inflation: 6 events
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
     - Fed decisions (Sep–Dec)
-    - Fed decisions (Oct-Jan)
-    - Fed decisions December 2026 to March 2027?
     - November Inflation US - Annual
+    - Fed decisions (Oct-Jan)
+    - What will gas hit by end of November?
 theme stocks: 1 events
     - What will S&P 500 (SPY) hit Week of November 16 2026?
 theme ai_chips: 6 events
