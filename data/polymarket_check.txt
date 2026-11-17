@@ -1,6 +1,6 @@
-fetched_at=2026-11-17T14:03:26+09:00
+fetched_at=2026-11-17T20:44:30+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,turnProviderId,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
@@ -17,24 +17,27 @@ theme oil_iran: 6 events
     - Will the Iranian regime fall before 2027?
 theme trump: 6 events
     - Fed Decision in December?
-    - US announces end of Iranian blockade by...?
     - Fed Decision in January?
-    - Next Senate Majority Leader?
+    - US announces end of Iranian blockade by...?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - Next Senate Majority Leader?
     - Prime Minister of Israel after the next election?
 theme tariff: 0 events
-theme recession: 2 events
-    - China Annual GDP Growth 2026
+theme recession: 4 events
+    - November 2026 Unemployment Rate - Canada
     - UK GDP growth in Q4 2026 (QoQ)?
+    - US recession by end of 2026?
+    - Brazil GDP Growth in Q3 2026 (QoQ)?
 theme inflation: 6 events
+    - November Inflation US - Annual
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
     - Fed decisions (Sep–Dec)
-    - November Inflation US - Annual
-    - Fed decisions (Oct-Jan)
     - What will gas hit by end of November?
-theme stocks: 1 events
+    - How high will inflation get in 2026?
+theme stocks: 2 events
     - What will S&P 500 (SPY) hit Week of November 16 2026?
+    - What will S&P 500 (SPX) hit by end of December?
 theme ai_chips: 6 events
     - Jensen Huang rejoins NVIDIA by...?
     - Next CEO of NVIDIA?
@@ -42,5 +45,4 @@ theme ai_chips: 6 events
     - Will Anthropic’s valuation hit __ by December 31?
     - Fourth Jensen Huang affair reported by...?
     - Anthropic IPO by __?
-theme fx: 1 events
-    - Bank of Japan Decision in December?
+theme fx: 0 events
