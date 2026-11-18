@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-18T12:41:33+09:00",
+ "fetched_at": "2026-11-18T12:45:18+09:00",
  "source": "Polymarket 公開API (gamma-api.polymarket.com/events・取引量の多い順500件から振り分け)",
  "grade": "A",
  "note": "確率は予測市場の値段で、事実の確率ではありません。キーワードでの機械的な振り分けです。",
@@ -84,8 +84,8 @@
       {
        "q": "Will 1 Fed rate cut happen in 2026?",
        "label": "1 (25 bps)",
-       "yes": 0.0045,
-       "d1": 0.001,
+       "yes": 0.0055,
+       "d1": 0.002,
        "vol24": 14911.567143,
        "end": "2027-01-01T04:59:00Z"
       },
@@ -167,8 +167,8 @@
       {
        "q": "Will 1 Fed rate hike happen in 2026?",
        "label": "1 (25 bps)",
-       "yes": 0.025,
-       "d1": -0.005,
+       "yes": 0.0245,
+       "d1": -0.0055,
        "vol24": 4593.263952,
        "end": "2026-12-31T23:59:00Z"
       },
@@ -305,8 +305,8 @@
       {
        "q": "Will WTI Crude Oil (WTI) hit (HIGH) $90 in November?",
        "label": "↑ $90",
-       "yes": 0.38,
-       "d1": 0.01,
+       "yes": 0.37,
+       "d1": null,
        "vol24": 18401.003536,
        "end": "2026-12-01T04:59:59.999Z"
       },
@@ -444,16 +444,16 @@
       {
        "q": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
        "label": "Benjamin Netanyahu",
-       "yes": 0.245,
-       "d1": 0.0485,
+       "yes": 0.2455,
+       "d1": 0.049,
        "vol24": 124073.51557899998,
        "end": "2026-10-28T03:59:00Z"
       },
       {
        "q": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
        "label": "Gadi Eizenkot",
-       "yes": 0.5705,
-       "d1": -0.0545,
+       "yes": 0.57,
+       "d1": -0.055,
        "vol24": 24810.613068000002,
        "end": "2026-10-28T03:59:00Z"
       },
@@ -579,8 +579,8 @@
       {
        "q": "Will China’s 2026 annual GDP growth (Y/Y) be between 3.0% and 4.0%?",
        "label": "3.0–4.0%",
-       "yes": 0.011,
-       "d1": null,
+       "yes": 0.0115,
+       "d1": 0.0005,
        "vol24": 717.032858,
        "end": "2027-01-31T00:00:00Z"
       },
@@ -639,7 +639,7 @@
        "label": "No Change",
        "yes": 0.245,
        "d1": -0.03,
-       "vol24": 485.678804,
+       "vol24": 485.67880399999996,
        "end": "2026-12-16T00:00:00Z"
       }
      ]
@@ -710,8 +710,8 @@
       {
        "q": "Will 1 Fed rate hike happen in 2026?",
        "label": "1 (25 bps)",
-       "yes": 0.025,
-       "d1": -0.005,
+       "yes": 0.0245,
+       "d1": -0.0055,
        "vol24": 4593.263952,
        "end": "2026-12-31T23:59:00Z"
       },
@@ -776,9 +776,9 @@
       {
        "q": "Will Brazil’s Annual Inflation in 2026 be between 5.00% and 5.49%?",
        "label": "5.00-5.49%",
-       "yes": 0.7585,
-       "d1": 0.2555,
-       "vol24": 1751.0075559999998,
+       "yes": 0.76,
+       "d1": 0.257,
+       "vol24": 1751.0075559999996,
        "end": "2027-01-13T04:59:00Z"
       },
       {
@@ -786,7 +786,7 @@
        "label": "5.50-5.99%",
        "yes": 0.0675,
        "d1": -0.1075,
-       "vol24": 997.447591,
+       "vol24": 997.4475909999999,
        "end": "2027-01-13T04:59:00Z"
       },
       {
@@ -825,8 +825,8 @@
       {
        "q": "Will US gas hit $3.60 (Low) in November?",
        "label": "↓ $3.60",
-       "yes": 0.6,
-       "d1": 0.11,
+       "yes": 0.545,
+       "d1": 0.055,
        "vol24": 317.386018,
        "end": "2026-11-30T15:00:00Z"
       }
@@ -848,24 +848,24 @@
       {
        "q": "Will S&P 500 (SPY) hit (LOW) $715 Week of November 16 2026?",
        "label": "↓ $715",
-       "yes": 0.28,
-       "d1": 0.135,
+       "yes": 0.285,
+       "d1": 0.14,
        "vol24": 1495.906597,
        "end": "2026-11-20T21:00:00Z"
       },
       {
        "q": "Will S&P 500 (SPY) hit (HIGH) $745 Week of November 16 2026?",
        "label": "↑ $745",
-       "yes": 0.525,
-       "d1": -0.255,
+       "yes": 0.53,
+       "d1": -0.25,
        "vol24": 1468.892189,
        "end": "2026-11-20T21:00:00Z"
       },
       {
        "q": "Will S&P 500 (SPY) hit (HIGH) $750 Week of November 16 2026?",
        "label": "↑ $750",
-       "yes": 0.37,
-       "d1": -0.185,
+       "yes": 0.365,
+       "d1": -0.19,
        "vol24": 1022.309941,
        "end": "2026-11-20T21:00:00Z"
       }
@@ -881,24 +881,24 @@
       {
        "q": "Will S&P 500 (SPY) hit (LOW) $710 in November?",
        "label": "↓ $710",
-       "yes": 0.395,
-       "d1": 0.12,
+       "yes": 0.385,
+       "d1": 0.11,
        "vol24": 2148.061424,
        "end": "2026-12-01T04:59:59.999Z"
       },
       {
        "q": "Will S&P 500 (SPY) hit (HIGH) $750 in November?",
        "label": "↑ $750",
-       "yes": 0.545,
-       "d1": -0.115,
+       "yes": 0.54,
+       "d1": -0.12,
        "vol24": 560.111634,
        "end": "2026-12-01T04:59:59.999Z"
       },
       {
        "q": "Will S&P 500 (SPY) hit (LOW) $680 in November?",
        "label": "↓ $680",
-       "yes": 0.19,
-       "d1": 0.114,
+       "yes": 0.1925,
+       "d1": 0.1165,
        "vol24": 524.229235,
        "end": "2026-12-01T04:59:59.999Z"
       }
@@ -909,7 +909,7 @@
      "slug": "spx-hit-dec-2026",
      "url": "https://polymarket.com/event/spx-hit-dec-2026",
      "end": "2026-12-31T21:00:00Z",
-     "vol24": 4812.731661,
+     "vol24": 4739.42863,
      "markets": [
       {
        "q": "Will S&P 500 (SPX) hit $5,800 (LOW) in December?",
@@ -924,7 +924,7 @@
        "label": "↑ $8,000",
        "yes": 0.125,
        "d1": -0.06,
-       "vol24": 1355.9,
+       "vol24": 1312.9,
        "end": "2026-12-31T21:00:00Z"
       },
       {
@@ -961,8 +961,8 @@
       {
        "q": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
        "label": "November 30, 2026",
-       "yes": 0.025,
-       "d1": -0.024,
+       "yes": 0.0285,
+       "d1": -0.0205,
        "vol24": 950083.9838170001,
        "end": "2026-12-01T04:59:00Z"
       },
@@ -1093,8 +1093,8 @@
       {
        "q": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
        "label": "↑$1.75T",
-       "yes": 0.455,
-       "d1": -0.025,
+       "yes": 0.46,
+       "d1": -0.02,
        "vol24": 25534.724027,
        "end": "2027-01-05T04:59:00Z"
       },
@@ -1118,16 +1118,16 @@
       {
        "q": "Will Anthropic's IPO valuation be between $1.25T and $1.50T?",
        "label": "$1.25–$1.50T",
-       "yes": 0.469,
-       "d1": 0.0495,
+       "yes": 0.459,
+       "d1": 0.0395,
        "vol24": 49721.030677,
        "end": "2028-01-01T04:59:00Z"
       },
       {
        "q": "Will Anthropic's IPO valuation be between $1.50T and $1.75T?",
        "label": "$1.50–$1.75T",
-       "yes": 0.421,
-       "d1": 0.001,
+       "yes": 0.429,
+       "d1": 0.009,
        "vol24": 17523.674811999997,
        "end": "2028-01-01T04:59:00Z"
       },
