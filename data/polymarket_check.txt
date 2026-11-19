@@ -1,4 +1,4 @@
-fetched_at=2026-11-19T20:30:24+09:00
+fetched_at=2026-11-20T06:26:57+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
@@ -6,41 +6,39 @@ theme rates: 6 events
     - Fed Decision in January?
     - Another Fed rate hike in 2026?
     - How many Fed rate cuts in 2026?
+    - How low will Lake Powell drop?
     - NVIDIA VP Kimberly Powell announced resignation or removal by...?
-    - How many Fed rate hikes in 2026?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
-    - Will the U.S. invade Iran before 2027?
     - US announces end of Iranian blockade by...?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - Will the U.S. invade Iran before 2027?
     - Strait of Hormuz traffic returns to normal by December 31?
     - Iran full airspace closure by...?
+    - What will WTI Crude Oil (WTI) hit in November 2026?
 theme trump: 6 events
     - Fed Decision in December?
-    - Will the U.S. invade Iran before 2027?
-    - Prime Minister of Israel after the next election?
     - US announces end of Iranian blockade by...?
+    - Prime Minister of Israel after the next election?
+    - Will the U.S. invade Iran before 2027?
+    - Trump out as President before 2027?
     - Russia x Ukraine ceasefire agreement by...?
-    - Fed Decision in January?
-theme tariff: 2 events
+theme tariff: 1 events
     - Canadian unwrought aluminum duty rate on December 31, 2027?
-    - US-Canada deal to cut Section 338 tariffs by December 30?
-theme recession: 1 events
-    - Mexico GDP growth in Q4 2026?
+theme recession: 0 events
 theme inflation: 4 events
     - Another Fed rate hike in 2026?
-    - How many Fed rate hikes in 2026?
+    - Fed decisions December 2026 to March 2027?
     - What will gas hit by end of November?
-    - November Inflation China - Monthly
-theme stocks: 2 events
+    - Fed decisions (Oct-Jan)
+theme stocks: 3 events
+    - What will S&P 500 (SPY) hit Week of November 16 2026?
     - What will S&P 500 (SPX) hit by end of December?
-    - S&P 500 (SPY) closes above ___ on November 19?
+    - What will S&P 500 (SPY) hit in November 2026?
 theme ai_chips: 6 events
     - Anthropic IPO Closing Market Cap
-    - Jensen Huang rejoins NVIDIA by...?
     - Anthropic IPO closing market cap above ___ ?
+    - Jensen Huang rejoins NVIDIA by...?
+    - Anthropic IPO Closing Market Cap (Middle Brackets)
+    - Will Anthropic’s valuation hit __ by December 31?
     - Next CEO of NVIDIA?
-    - Anthropic IPO by __?
-    - What will Anthropic's IPO valuation be?
-theme fx: 1 events
-    - Bank of Japan Decision in December?
+theme fx: 0 events
