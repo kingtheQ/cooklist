@@ -1,6 +1,6 @@
-fetched_at=2026-11-19T06:22:29+09:00
+fetched_at=2026-11-19T12:19:35+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
@@ -10,18 +10,18 @@ theme rates: 6 events
     - How many Fed rate hikes in 2026?
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
+    - Will the U.S. invade Iran before 2027?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - US announces end of Iranian blockade by...?
     - What will WTI Crude Oil (WTI) hit in November 2026?
     - Iran leadership change by...?
-    - US imports Russian diesel by...?
 theme trump: 6 events
     - Fed Decision in December?
+    - Will the U.S. invade Iran before 2027?
+    - Prime Minister of Israel after the next election?
     - US x Iran Effective Ceasefire begins by...? (2 week pause)
-    - Next Senate Majority Leader?
-    - Trump out as President before 2027?
-    - US announces end of Iranian blockade by...?
     - Russia x Ukraine ceasefire agreement by...?
+    - US announces end of Iranian blockade by...?
 theme tariff: 2 events
     - Canadian unwrought aluminum duty rate on December 31, 2027?
     - US-Canada deal to cut Section 338 tariffs by December 30?
@@ -31,17 +31,17 @@ theme recession: 2 events
 theme inflation: 6 events
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
-    - November Inflation Canada - Monthly
     - What will gas hit by end of November?
-    - November Inflation Canada - Annual
     - November Inflation China - Monthly
+    - November Inflation Canada - Annual
+    - November Inflation Canada - Monthly
 theme stocks: 1 events
     - What will S&P 500 (SPX) hit by end of December?
 theme ai_chips: 6 events
     - Anthropic IPO Closing Market Cap
-    - Jensen Huang rejoins NVIDIA by...?
     - Next CEO of NVIDIA?
-    - Anthropic announces bankruptcy by...?
+    - Jensen Huang rejoins NVIDIA by...?
+    - What will Anthropic's IPO valuation be?
     - Anthropic IPO by __?
     - Will Anthropic’s valuation hit __ by December 31?
 theme fx: 1 events
