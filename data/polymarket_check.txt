@@ -1,6 +1,6 @@
-fetched_at=2026-11-20T12:05:37+09:00
+fetched_at=2026-11-20T12:36:10+09:00
 events_fetched=500
-event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
+event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
@@ -38,10 +38,10 @@ theme stocks: 3 events
     - What will S&P 500 (SPX) hit by end of December?
     - What will S&P 500 (SPY) hit in November 2026?
 theme ai_chips: 6 events
-    - Anthropic IPO closing market cap above ___ ?
     - Jensen Huang rejoins NVIDIA by...?
     - Will Anthropic’s valuation hit __ by December 31?
     - Largest IPO by market cap in 2026?
     - Next CEO of NVIDIA?
     - Largest Company end of December 2026?
+    - Which company has best AI model end of 2026?
 theme fx: 0 events
