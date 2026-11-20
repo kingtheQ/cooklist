@@ -1,5 +1,5 @@
 {
- "fetched_at": "2026-11-20T20:27:23+09:00",
+ "fetched_at": "2026-11-21T06:02:00+09:00",
  "source": "Polymarket 公開API (gamma-api.polymarket.com/events・取引量の多い順500件から振り分け)",
  "grade": "A",
  "note": "確率は予測市場の値段で、事実の確率ではありません。キーワードでの機械的な振り分けです。",
@@ -13,30 +13,30 @@
      "slug": "fed-decision-in-december-20260729232808632",
      "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
      "end": "2026-12-10T04:59:00Z",
-     "vol24": 3989642.4461169997,
+     "vol24": 3477667.957583,
      "markets": [
       {
        "q": "Will there be no change in Fed interest rates after the December 2026 meeting?",
        "label": "No change",
-       "yes": 0.038,
-       "d1": 0.0145,
-       "vol24": 1367520.6394089998,
-       "end": "2026-12-09T23:59:00Z"
-      },
-      {
-       "q": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-       "label": "50+ bps decrease",
-       "yes": 0.0025,
-       "d1": 0.001,
-       "vol24": 1144338.614,
+       "yes": 0.0865,
+       "d1": 0.059,
+       "vol24": 1000194.378588,
        "end": "2026-12-09T23:59:00Z"
       },
       {
        "q": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
        "label": "25 bps decrease",
-       "yes": 0.0025,
-       "d1": -0.001,
-       "vol24": 802058.9528369999,
+       "yes": 0.0035,
+       "d1": 0.001,
+       "vol24": 855577.5085100001,
+       "end": "2026-12-09T23:59:00Z"
+      },
+      {
+       "q": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+       "label": "25 bps increase",
+       "yes": 0.895,
+       "d1": -0.02,
+       "vol24": 736436.2357329999,
        "end": "2026-12-09T23:59:00Z"
       }
      ]
@@ -46,30 +46,30 @@
      "slug": "fed-decision-in-january-20260729233815502",
      "url": "https://polymarket.com/event/fed-decision-in-january-20260729233815502",
      "end": "2027-01-28T04:59:00Z",
-     "vol24": 107292.855276,
+     "vol24": 183389.078823,
      "markets": [
-      {
-       "q": "Will the Fed decrease interest rates by 50+ bps after the January 2027 meeting?",
-       "label": "50+ bps decrease",
-       "yes": 0.0065,
-       "d1": 0.0015,
-       "vol24": 29168.715385,
-       "end": "2027-01-28T04:59:00Z"
-      },
-      {
-       "q": "Will the Fed decrease interest rates by 25 bps after the January 2027 meeting?",
-       "label": "25 bps decrease",
-       "yes": 0.013,
-       "d1": 0.0045,
-       "vol24": 29018.720133,
-       "end": "2027-01-28T04:59:00Z"
-      },
       {
        "q": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
        "label": "25 bps increase",
-       "yes": 0.615,
-       "d1": -0.01,
-       "vol24": 22540.794092,
+       "yes": 0.535,
+       "d1": -0.08,
+       "vol24": 79151.472351,
+       "end": "2027-01-28T04:59:00Z"
+      },
+      {
+       "q": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+       "label": "No change",
+       "yes": 0.445,
+       "d1": 0.08,
+       "vol24": 31684.34646999999,
+       "end": "2027-01-28T04:59:00Z"
+      },
+      {
+       "q": "Will the Fed increase interest rates by 50+ bps after the January 2027 meeting?",
+       "label": "50+ bps increase",
+       "yes": 0.0115,
+       "d1": -0.002,
+       "vol24": 29618.332695999998,
        "end": "2027-01-28T04:59:00Z"
       }
      ]
@@ -79,15 +79,48 @@
      "slug": "another-fed-rate-hike-in-2026",
      "url": "https://polymarket.com/event/another-fed-rate-hike-in-2026",
      "end": "2026-12-10T04:59:00Z",
-     "vol24": 62524.540164,
+     "vol24": 97074.79186,
      "markets": [
       {
        "q": "Another Fed rate hike in 2026?",
        "label": "",
-       "yes": 0.9585,
-       "d1": -0.0185,
-       "vol24": 62524.540164,
+       "yes": 0.922,
+       "d1": -0.052,
+       "vol24": 97074.79186,
        "end": "2026-12-10T04:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "How many Fed rate hikes in 2026?",
+     "slug": "how-many-fed-rate-hikes-in-2026-20260623190717369",
+     "url": "https://polymarket.com/event/how-many-fed-rate-hikes-in-2026-20260623190717369",
+     "end": "2027-01-01T04:59:00Z",
+     "vol24": 76436.53614899999,
+     "markets": [
+      {
+       "q": "Will 1 Fed rate hike happen in 2026?",
+       "label": "1 (25 bps)",
+       "yes": 0.0695,
+       "d1": 0.0465,
+       "vol24": 72728.213486,
+       "end": "2026-12-31T23:59:00Z"
+      },
+      {
+       "q": "Will 2 Fed rate hikes happen in 2026?",
+       "label": "2 (50 bps)",
+       "yes": 0.9,
+       "d1": -0.02,
+       "vol24": 3465.978748,
+       "end": "2026-12-31T23:59:00Z"
+      },
+      {
+       "q": "Will 3 Fed rate hikes happen in 2026?",
+       "label": "3 (75 bps)",
+       "yes": 0.034,
+       "d1": -0.029,
+       "vol24": 242.343915,
+       "end": "2026-12-31T23:59:00Z"
       }
      ]
     },
@@ -96,97 +129,64 @@
      "slug": "how-many-fed-rate-cuts-in-2026",
      "url": "https://polymarket.com/event/how-many-fed-rate-cuts-in-2026",
      "end": "2027-01-01T04:59:00Z",
-     "vol24": 48653.594655,
+     "vol24": 64564.11122,
      "markets": [
-      {
-       "q": "Will 1 Fed rate cut happen in 2026?",
-       "label": "1 (25 bps)",
-       "yes": 0.005,
-       "d1": -0.0015,
-       "vol24": 20589.507143,
-       "end": "2027-01-01T04:59:00Z"
-      },
       {
        "q": "Will no Fed rate cuts happen in 2026?",
        "label": "0 (0 bps)",
-       "yes": 0.983,
-       "d1": 0.0005,
-       "vol24": 16196.198561,
+       "yes": 0.9835,
+       "d1": 0.001,
+       "vol24": 34876.001461,
+       "end": "2027-01-01T04:59:00Z"
+      },
+      {
+       "q": "Will 1 Fed rate cut happen in 2026?",
+       "label": "1 (25 bps)",
+       "yes": 0.0045,
+       "d1": -0.009,
+       "vol24": 21486.337143,
        "end": "2027-01-01T04:59:00Z"
       },
       {
        "q": "Will 2 Fed rate cuts happen in 2026?",
        "label": "2 (50 bps)",
        "yes": 0.0025,
-       "d1": -0.0025,
-       "vol24": 5028.7529509999995,
+       "d1": null,
+       "vol24": 4320.022616,
        "end": "2027-01-01T04:59:00Z"
       }
      ]
     },
     {
-     "title": "How low will Lake Powell drop?",
-     "slug": "how-low-will-lake-powell-drop-1786980780361",
-     "url": "https://polymarket.com/event/how-low-will-lake-powell-drop-1786980780361",
-     "end": "2027-04-16T03:59:00Z",
-     "vol24": 22203.913847,
+     "title": "Fed decisions (Sep–Dec)",
+     "slug": "fed-decisions-sepdec",
+     "url": "https://polymarket.com/event/fed-decisions-sepdec",
+     "end": "2026-12-09T23:59:00Z",
+     "vol24": 60765.297254000005,
      "markets": [
       {
-       "q": "Will Lake Powell's minimum elevation stay above 3,510 ft?",
-       "label": "Above 3,510 ft",
-       "yes": 0.9815,
-       "d1": 0.065,
-       "vol24": 17795.120858,
-       "end": "2027-04-16T03:59:00Z"
+       "q": "Will the Fed Hike–Pause–Pause in the next three decisions (Sep–Oct–Dec)?",
+       "label": "Hike–Pause–Pause",
+       "yes": 0.0695,
+       "d1": 0.044,
+       "vol24": 33384.751906,
+       "end": "2026-12-09T23:59:00Z"
       },
       {
-       "q": "Will Lake Powell's minimum elevation be at least 3,500 but below 3,510 ft?",
-       "label": "3,500–3,510 ft",
-       "yes": 0.0145,
-       "d1": -0.0335,
-       "vol24": 2917.994989,
-       "end": "2027-04-16T03:59:00Z"
+       "q": "Will the Fed Hike–Pause–Hike in the next three decisions (Sep–Oct–Dec)?",
+       "label": "Hike–Pause–Hike",
+       "yes": 0.9245,
+       "d1": -0.044,
+       "vol24": 19625.797013000003,
+       "end": "2026-12-09T23:59:00Z"
       },
       {
-       "q": "Will Lake Powell's minimum elevation be at least 3,490 but below 3,500 ft?",
-       "label": "3,490–3,500 ft",
-       "yes": 0.004,
-       "d1": -0.008,
-       "vol24": 781.398,
-       "end": "2027-04-16T03:59:00Z"
-      }
-     ]
-    },
-    {
-     "title": "Fed Decision in March?",
-     "slug": "fed-decision-in-march-2027",
-     "url": "https://polymarket.com/event/fed-decision-in-march-2027",
-     "end": "2027-03-18T03:59:00Z",
-     "vol24": 12251.876249,
-     "markets": [
-      {
-       "q": "Will the Fed decrease interest rates by 25 bps after the March 2027 meeting?",
-       "label": "25 bps decrease",
-       "yes": 0.051,
-       "d1": 0.026,
-       "vol24": 4364.622441,
-       "end": "2027-03-18T03:59:00Z"
-      },
-      {
-       "q": "Will the Fed decrease interest rates by 50+ bps after the March 2027 meeting?",
-       "label": "50+ bps decrease",
-       "yes": 0.01,
-       "d1": 0.0015,
-       "vol24": 3463.207274,
-       "end": "2027-03-18T03:59:00Z"
-      },
-      {
-       "q": "Will the Fed increase interest rates by 50+ bps after the March 2027 meeting?",
-       "label": "50+ bps increase",
-       "yes": 0.0175,
-       "d1": -0.001,
-       "vol24": 2001.764708,
-       "end": "2027-03-18T03:59:00Z"
+       "q": "Will the Fed decide differently in the next three decisions (Sep–Oct–Dec)?",
+       "label": "Other",
+       "yes": 0.005,
+       "d1": -0.0005,
+       "vol24": 7754.748335000001,
+       "end": "2026-12-09T23:59:00Z"
       }
      ]
     }
@@ -201,30 +201,30 @@
      "slug": "israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
      "url": "https://polymarket.com/event/israel-x-iran-ceasefire-continues-throughptptpt-20260716224448963",
      "end": "2026-12-31T20:29:00Z",
-     "vol24": 823222.791698,
+     "vol24": 1236717.169832,
      "markets": [
       {
        "q": "Israel x Iran ceasefire continues through November 22?",
        "label": "November 22",
-       "yes": 0.955,
-       "d1": 0.03,
-       "vol24": 347397.492095,
+       "yes": 0.915,
+       "d1": -0.03,
+       "vol24": 579773.92029,
        "end": "2026-11-23T04:59:00Z"
       },
       {
        "q": "Israel x Iran ceasefire continues through November 20?",
        "label": "November 20",
-       "yes": 0.9885,
-       "d1": 0.0065,
-       "vol24": 211946.584523,
+       "yes": 0.995,
+       "d1": 0.011,
+       "vol24": 318257.992595,
        "end": "2026-11-21T04:59:00Z"
       },
       {
        "q": "Israel x Iran ceasefire continues through November 30?",
        "label": "November 30",
-       "yes": 0.865,
-       "d1": 0.02,
-       "vol24": 111838.244666,
+       "yes": 0.815,
+       "d1": -0.02,
+       "vol24": 155806.220283,
        "end": "2026-11-30T20:29:00Z"
       }
      ]
@@ -234,30 +234,30 @@
      "slug": "us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
      "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
      "end": "2027-04-01T03:59:00Z",
-     "vol24": 297155.014846,
+     "vol24": 183840.484073,
      "markets": [
-      {
-       "q": "US announces end of Iranian blockade by December 31, 2026?",
-       "label": "December 31",
-       "yes": 0.131,
-       "d1": -0.0485,
-       "vol24": 131065.11922000001,
-       "end": "2027-01-01T04:59:00Z"
-      },
       {
        "q": "US announces end of Iranian blockade by November 30, 2026?",
        "label": "November 30",
-       "yes": 0.028,
-       "d1": -0.025,
-       "vol24": 100472.68372200002,
+       "yes": 0.0405,
+       "d1": 0.0065,
+       "vol24": 90806.38363699999,
        "end": "2026-12-01T04:59:00Z"
+      },
+      {
+       "q": "US announces end of Iranian blockade by December 31, 2026?",
+       "label": "December 31",
+       "yes": 0.134,
+       "d1": 0.0155,
+       "vol24": 58570.25586,
+       "end": "2027-01-01T04:59:00Z"
       },
       {
        "q": "US announces end of Iranian blockade by March 31, 2027?",
        "label": "March 31",
-       "yes": 0.425,
-       "d1": -0.075,
-       "vol24": 40099.110613,
+       "yes": 0.415,
+       "d1": -0.045,
+       "vol24": 18837.842243,
        "end": "2027-04-01T03:59:00Z"
       }
      ]
@@ -267,56 +267,64 @@
      "slug": "iran-leadership-change-by",
      "url": "https://polymarket.com/event/iran-leadership-change-by",
      "end": "2027-07-01T03:59:00Z",
-     "vol24": 124019.79033200002,
+     "vol24": 168512.022138,
      "markets": [
       {
        "q": "Iran leadership change by November 30?",
        "label": "November 30",
-       "yes": 0.013,
-       "d1": -0.003,
-       "vol24": 100138.60627400002,
+       "yes": 0.014,
+       "d1": -0.001,
+       "vol24": 98646.159147,
        "end": "2026-12-01T04:59:00Z"
       },
       {
        "q": "Iran leadership change by December 31?",
        "label": "December 31",
-       "yes": 0.065,
-       "d1": null,
-       "vol24": 15400.488939,
+       "yes": 0.075,
+       "d1": 0.01,
+       "vol24": 69623.825561,
        "end": "2027-01-01T04:59:00Z"
       },
       {
        "q": "Iran leadership change by June 30, 2027?",
        "label": "June 30, 2027",
        "yes": 0.235,
-       "d1": 0.02,
-       "vol24": 8480.695119,
+       "d1": null,
+       "vol24": 242.03742999999997,
        "end": "2027-07-01T03:59:00Z"
       }
      ]
     },
     {
-     "title": "Crude Oil all time high by...?",
-     "slug": "crude-oil-all-time-high-by",
-     "url": "https://polymarket.com/event/crude-oil-all-time-high-by",
-     "end": "2027-01-01T04:59:00Z",
-     "vol24": 123892.58495,
+     "title": "US x Iran Effective Ceasefire begins by...? (2 week pause)",
+     "slug": "us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+     "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+     "end": "2026-12-31T20:29:00Z",
+     "vol24": 153285.22729600003,
      "markets": [
       {
-       "q": "Will Crude Oil reach a new all-time high by December 31?",
-       "label": "December 31",
-       "yes": 0.0345,
-       "d1": 0.003,
-       "vol24": 109061.087262,
-       "end": "2027-01-01T04:59:00Z"
+       "q": "US x Iran Effective Ceasefire by November 22?",
+       "label": "November 22",
+       "yes": 0.305,
+       "d1": -0.02,
+       "vol24": 95366.93992000002,
+       "end": "2026-11-22T20:29:00Z"
       },
       {
-       "q": "Will Crude Oil reach a new all-time high by March 31, 2027?",
-       "label": "March 31, 2027",
-       "yes": 0.155,
-       "d1": 0.02,
-       "vol24": 14831.497688000003,
-       "end": "2027-04-01T03:59:00Z"
+       "q": "US x Iran Effective Ceasefire by November 30?",
+       "label": "November 30",
+       "yes": 0.55,
+       "d1": 0.095,
+       "vol24": 43335.638100000004,
+       "end": "2026-11-30T20:29:00Z"
+      },
+      {
+       "q": "US x Iran Effective Ceasefire by December 31?",
+       "label": "December 31",
+       "yes": 0.775,
+       "d1": 0.06,
+       "vol24": 14582.649276,
+       "end": "2026-12-31T20:29:00Z"
       }
      ]
     },
@@ -325,30 +333,30 @@
      "slug": "what-price-will-wti-hit-in-november-2026",
      "url": "https://polymarket.com/event/what-price-will-wti-hit-in-november-2026",
      "end": "2026-12-01T04:59:59.999Z",
-     "vol24": 119575.42171,
+     "vol24": 150097.737132,
      "markets": [
       {
        "q": "Will WTI Crude Oil (WTI) hit (LOW) $80 in November?",
        "label": "↓ $80",
-       "yes": 0.695,
-       "d1": -0.04,
-       "vol24": 27933.725116,
+       "yes": 0.515,
+       "d1": -0.055,
+       "vol24": 39786.736886,
        "end": "2026-12-01T04:59:59.999Z"
       },
       {
        "q": "Will WTI Crude Oil (WTI) hit (HIGH) $160 in November?",
        "label": "↑ $160",
-       "yes": 0.0055,
-       "d1": null,
-       "vol24": 20617.303336999998,
+       "yes": 0.0065,
+       "d1": 0.001,
+       "vol24": 27359.118481,
        "end": "2026-12-01T04:59:59.999Z"
       },
       {
-       "q": "Will WTI Crude Oil (WTI) hit (HIGH) $130 in November?",
-       "label": "↑ $130",
-       "yes": 0.0115,
+       "q": "Will WTI Crude Oil (WTI) hit (HIGH) $140 in November?",
+       "label": "↑ $140",
+       "yes": 0.0105,
        "d1": 0.003,
-       "vol24": 10326.126792,
+       "vol24": 12381.913219,
        "end": "2026-12-01T04:59:59.999Z"
       }
      ]
@@ -358,14 +366,14 @@
      "slug": "will-the-us-invade-iran-before-2027",
      "url": "https://polymarket.com/event/will-the-us-invade-iran-before-2027",
      "end": "2027-01-01T04:59:00Z",
-     "vol24": 97625.908179,
+     "vol24": 138470.97605400003,
      "markets": [
       {
        "q": "Will the U.S. invade Iran before 2027?",
        "label": "",
-       "yes": 0.065,
-       "d1": null,
-       "vol24": 97625.908179,
+       "yes": 0.085,
+       "d1": 0.02,
+       "vol24": 138470.97605400003,
        "end": "2027-01-01T04:59:00Z"
       }
      ]
@@ -381,30 +389,30 @@
      "slug": "fed-decision-in-december-20260729232808632",
      "url": "https://polymarket.com/event/fed-decision-in-december-20260729232808632",
      "end": "2026-12-10T04:59:00Z",
-     "vol24": 3989642.4461169997,
+     "vol24": 3477667.957583,
      "markets": [
       {
        "q": "Will there be no change in Fed interest rates after the December 2026 meeting?",
        "label": "No change",
-       "yes": 0.038,
-       "d1": 0.0145,
-       "vol24": 1367520.6394089998,
-       "end": "2026-12-09T23:59:00Z"
-      },
-      {
-       "q": "Will the Fed decrease interest rates by 50+ bps after the December 2026 meeting?",
-       "label": "50+ bps decrease",
-       "yes": 0.0025,
-       "d1": 0.001,
-       "vol24": 1144338.614,
+       "yes": 0.0865,
+       "d1": 0.059,
+       "vol24": 1000194.378588,
        "end": "2026-12-09T23:59:00Z"
       },
       {
        "q": "Will the Fed decrease interest rates by 25 bps after the December 2026 meeting?",
        "label": "25 bps decrease",
-       "yes": 0.0025,
-       "d1": -0.001,
-       "vol24": 802058.9528369999,
+       "yes": 0.0035,
+       "d1": 0.001,
+       "vol24": 855577.5085100001,
+       "end": "2026-12-09T23:59:00Z"
+      },
+      {
+       "q": "Will the Fed increase interest rates by 25 bps after the December 2026 meeting?",
+       "label": "25 bps increase",
+       "yes": 0.895,
+       "d1": -0.02,
+       "vol24": 736436.2357329999,
        "end": "2026-12-09T23:59:00Z"
       }
      ]
@@ -414,65 +422,15 @@
      "slug": "clarity-act-signed-into-law-in-2026",
      "url": "https://polymarket.com/event/clarity-act-signed-into-law-in-2026",
      "end": "2027-01-01T05:00:00Z",
-     "vol24": 348556.308667,
+     "vol24": 481920.62927700003,
      "markets": [
       {
        "q": "Clarity Act (H.R.3633) signed into law in 2026?",
        "label": "",
-       "yes": 0.005,
+       "yes": 0.0055,
        "d1": -0.013,
-       "vol24": 348556.308667,
+       "vol24": 481920.62927700003,
        "end": "2027-01-01T05:00:00Z"
-      }
-     ]
-    },
-    {
-     "title": "US announces end of Iranian blockade by...?",
-     "slug": "us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
-     "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
-     "end": "2027-04-01T03:59:00Z",
-     "vol24": 297155.014846,
-     "markets": [
-      {
-       "q": "US announces end of Iranian blockade by December 31, 2026?",
-       "label": "December 31",
-       "yes": 0.131,
-       "d1": -0.0485,
-       "vol24": 131065.11922000001,
-       "end": "2027-01-01T04:59:00Z"
-      },
-      {
-       "q": "US announces end of Iranian blockade by November 30, 2026?",
-       "label": "November 30",
-       "yes": 0.028,
-       "d1": -0.025,
-       "vol24": 100472.68372200002,
-       "end": "2026-12-01T04:59:00Z"
-      },
-      {
-       "q": "US announces end of Iranian blockade by March 31, 2027?",
-       "label": "March 31",
-       "yes": 0.425,
-       "d1": -0.075,
-       "vol24": 40099.110613,
-       "end": "2027-04-01T03:59:00Z"
-      }
-     ]
-    },
-    {
-     "title": "Trump out as President before 2027?",
-     "slug": "trump-out-as-president-before-2027",
-     "url": "https://polymarket.com/event/trump-out-as-president-before-2027",
-     "end": "2027-01-01T04:59:00Z",
-     "vol24": 173854.592462,
-     "markets": [
-      {
-       "q": "Trump out as President before 2027?",
-       "label": "",
-       "yes": 0.0245,
-       "d1": 0.002,
-       "vol24": 173854.592462,
-       "end": "2027-01-01T04:59:00Z"
       }
      ]
     },
@@ -481,31 +439,64 @@
      "slug": "who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
      "url": "https://polymarket.com/event/who-will-be-the-next-prime-minister-of-israel-after-the-next-election",
      "end": "2026-10-28T03:59:00Z",
-     "vol24": 156000.87267,
+     "vol24": 216219.98955,
      "markets": [
       {
        "q": "Will Benjamin Netanyahu be the next Prime Minister of Israel?",
        "label": "Benjamin Netanyahu",
-       "yes": 0.206,
-       "d1": -0.0295,
-       "vol24": 48590.670714,
+       "yes": 0.201,
+       "d1": -0.0275,
+       "vol24": 96974.671693,
        "end": "2026-10-28T03:59:00Z"
       },
       {
        "q": "Will Gadi Eizenkot be the next Prime Minister of Israel?",
        "label": "Gadi Eizenkot",
-       "yes": 0.6225,
-       "d1": 0.0515,
-       "vol24": 39089.90670100001,
+       "yes": 0.6655,
+       "d1": 0.033,
+       "vol24": 52937.160223,
        "end": "2026-10-28T03:59:00Z"
       },
       {
        "q": "Will Naftali Bennett be the next Prime Minister of Israel?",
        "label": "Naftali Bennett",
-       "yes": 0.066,
-       "d1": 0.014,
-       "vol24": 31496.964665999993,
+       "yes": 0.055,
+       "d1": -0.0015,
+       "vol24": 47480.893071,
        "end": "2026-10-28T03:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "US announces end of Iranian blockade by...?",
+     "slug": "us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
+     "url": "https://polymarket.com/event/us-announces-end-of-iranian-blockade-byptptpt-20260713152715080",
+     "end": "2027-04-01T03:59:00Z",
+     "vol24": 183840.484073,
+     "markets": [
+      {
+       "q": "US announces end of Iranian blockade by November 30, 2026?",
+       "label": "November 30",
+       "yes": 0.0405,
+       "d1": 0.0065,
+       "vol24": 90806.38363699999,
+       "end": "2026-12-01T04:59:00Z"
+      },
+      {
+       "q": "US announces end of Iranian blockade by December 31, 2026?",
+       "label": "December 31",
+       "yes": 0.134,
+       "d1": 0.0155,
+       "vol24": 58570.25586,
+       "end": "2027-01-01T04:59:00Z"
+      },
+      {
+       "q": "US announces end of Iranian blockade by March 31, 2027?",
+       "label": "March 31",
+       "yes": 0.415,
+       "d1": -0.045,
+       "vol24": 18837.842243,
+       "end": "2027-04-01T03:59:00Z"
       }
      ]
     },
@@ -514,31 +505,64 @@
      "slug": "fed-decision-in-january-20260729233815502",
      "url": "https://polymarket.com/event/fed-decision-in-january-20260729233815502",
      "end": "2027-01-28T04:59:00Z",
-     "vol24": 107292.855276,
+     "vol24": 183389.078823,
      "markets": [
-      {
-       "q": "Will the Fed decrease interest rates by 50+ bps after the January 2027 meeting?",
-       "label": "50+ bps decrease",
-       "yes": 0.0065,
-       "d1": 0.0015,
-       "vol24": 29168.715385,
-       "end": "2027-01-28T04:59:00Z"
-      },
-      {
-       "q": "Will the Fed decrease interest rates by 25 bps after the January 2027 meeting?",
-       "label": "25 bps decrease",
-       "yes": 0.013,
-       "d1": 0.0045,
-       "vol24": 29018.720133,
-       "end": "2027-01-28T04:59:00Z"
-      },
       {
        "q": "Will the Fed increase interest rates by 25 bps after the January 2027 meeting?",
        "label": "25 bps increase",
-       "yes": 0.615,
-       "d1": -0.01,
-       "vol24": 22540.794092,
+       "yes": 0.535,
+       "d1": -0.08,
+       "vol24": 79151.472351,
        "end": "2027-01-28T04:59:00Z"
+      },
+      {
+       "q": "Will there be no change in Fed interest rates after the January 2027 meeting?",
+       "label": "No change",
+       "yes": 0.445,
+       "d1": 0.08,
+       "vol24": 31684.34646999999,
+       "end": "2027-01-28T04:59:00Z"
+      },
+      {
+       "q": "Will the Fed increase interest rates by 50+ bps after the January 2027 meeting?",
+       "label": "50+ bps increase",
+       "yes": 0.0115,
+       "d1": -0.002,
+       "vol24": 29618.332695999998,
+       "end": "2027-01-28T04:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "US x Iran Effective Ceasefire begins by...? (2 week pause)",
+     "slug": "us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+     "url": "https://polymarket.com/event/us-x-iran-effective-ceasefire-begins-by-2-week-pause-20261108",
+     "end": "2026-12-31T20:29:00Z",
+     "vol24": 153285.22729600003,
+     "markets": [
+      {
+       "q": "US x Iran Effective Ceasefire by November 22?",
+       "label": "November 22",
+       "yes": 0.305,
+       "d1": -0.02,
+       "vol24": 95366.93992000002,
+       "end": "2026-11-22T20:29:00Z"
+      },
+      {
+       "q": "US x Iran Effective Ceasefire by November 30?",
+       "label": "November 30",
+       "yes": 0.55,
+       "d1": 0.095,
+       "vol24": 43335.638100000004,
+       "end": "2026-11-30T20:29:00Z"
+      },
+      {
+       "q": "US x Iran Effective Ceasefire by December 31?",
+       "label": "December 31",
+       "yes": 0.775,
+       "d1": 0.06,
+       "vol24": 14582.649276,
+       "end": "2026-12-31T20:29:00Z"
       }
      ]
     }
@@ -553,30 +577,30 @@
      "slug": "section-232-rate-on-canadian-primary-aluminum",
      "url": "https://polymarket.com/event/section-232-rate-on-canadian-primary-aluminum",
      "end": "2027-12-31T05:01:00Z",
-     "vol24": 13424.009610000001,
+     "vol24": 14826.396747000003,
      "markets": [
       {
        "q": "Will the US Section 232 tariff rate on Canadian primary aluminum be >40-50% on December 31, 2027?",
        "label": ">40-50%",
-       "yes": 0.565,
-       "d1": 0.16,
-       "vol24": 8868.232779,
+       "yes": 0.485,
+       "d1": 0.05,
+       "vol24": 10369.580880000001,
        "end": "2027-12-31T05:01:00Z"
       },
       {
        "q": "Will the US Section 232 tariff rate on Canadian primary aluminum be >20-40% on December 31, 2027?",
        "label": ">20-40%",
-       "yes": 0.28,
-       "d1": null,
-       "vol24": 4354.855867,
+       "yes": 0.275,
+       "d1": -0.005,
+       "vol24": 4356.135867,
        "end": "2027-12-31T05:01:00Z"
       },
       {
-       "q": "Will the US Section 232 tariff rate on Canadian primary aluminum be >0-20% on December 31, 2027?",
-       "label": ">0-20%",
-       "yes": 0.0645,
-       "d1": -0.129,
-       "vol24": 200.92096399999997,
+       "q": "Will the US Section 232 tariff rate on Canadian primary aluminum be Other on December 31, 2027?",
+       "label": "Other",
+       "yes": 0.0335,
+       "d1": -0.0015,
+       "vol24": 100.68,
        "end": "2027-12-31T05:01:00Z"
       }
      ]
@@ -588,35 +612,19 @@
    "label": "景気後退・景気",
    "events": [
     {
-     "title": "China GDP growth (Y/Y) in Q4 2026?",
-     "slug": "china-gdp-growth-yy-in-q4-2026",
-     "url": "https://polymarket.com/event/china-gdp-growth-yy-in-q4-2026",
-     "end": "2027-02-01T04:59:00Z",
-     "vol24": 5144.049758,
+     "title": "US recession by end of 2026?",
+     "slug": "us-recession-by-end-of-2026",
+     "url": "https://polymarket.com/event/us-recession-by-end-of-2026",
+     "end": "2026-12-31T00:00:00Z",
+     "vol24": 23845.034727000006,
      "markets": [
       {
-       "q": "Will China GDP growth in Q4 2026 be between 4.3% and 4.6%?",
-       "label": "4.3-4.6%",
-       "yes": 0.465,
-       "d1": null,
-       "vol24": 3204.309675,
-       "end": "2027-02-01T04:59:00Z"
-      },
-      {
-       "q": "Will China GDP growth in Q4 2026 be between 4.6% and 4.9%?",
-       "label": "4.6-4.9%",
-       "yes": 0.455,
-       "d1": -0.05,
-       "vol24": 964.643298,
-       "end": "2027-02-01T04:59:00Z"
-      },
-      {
-       "q": "Will China GDP growth in Q4 2026 be between 5.2% and 5.5%?",
-       "label": "5.2-5.5%",
-       "yes": 0.003,
-       "d1": 0.0005,
-       "vol24": 338.013,
-       "end": "2027-02-01T04:59:00Z"
+       "q": "US recession by end of 2026?",
+       "label": "",
+       "yes": 0.0445,
+       "d1": 0.021,
+       "vol24": 23845.034727000006,
+       "end": "2027-01-31T00:00:00Z"
       }
      ]
     }
@@ -631,15 +639,81 @@
      "slug": "another-fed-rate-hike-in-2026",
      "url": "https://polymarket.com/event/another-fed-rate-hike-in-2026",
      "end": "2026-12-10T04:59:00Z",
-     "vol24": 62524.540164,
+     "vol24": 97074.79186,
      "markets": [
       {
        "q": "Another Fed rate hike in 2026?",
        "label": "",
-       "yes": 0.9585,
-       "d1": -0.0185,
-       "vol24": 62524.540164,
+       "yes": 0.922,
+       "d1": -0.052,
+       "vol24": 97074.79186,
        "end": "2026-12-10T04:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "How many Fed rate hikes in 2026?",
+     "slug": "how-many-fed-rate-hikes-in-2026-20260623190717369",
+     "url": "https://polymarket.com/event/how-many-fed-rate-hikes-in-2026-20260623190717369",
+     "end": "2027-01-01T04:59:00Z",
+     "vol24": 76436.53614899999,
+     "markets": [
+      {
+       "q": "Will 1 Fed rate hike happen in 2026?",
+       "label": "1 (25 bps)",
+       "yes": 0.0695,
+       "d1": 0.0465,
+       "vol24": 72728.213486,
+       "end": "2026-12-31T23:59:00Z"
+      },
+      {
+       "q": "Will 2 Fed rate hikes happen in 2026?",
+       "label": "2 (50 bps)",
+       "yes": 0.9,
+       "d1": -0.02,
+       "vol24": 3465.978748,
+       "end": "2026-12-31T23:59:00Z"
+      },
+      {
+       "q": "Will 3 Fed rate hikes happen in 2026?",
+       "label": "3 (75 bps)",
+       "yes": 0.034,
+       "d1": -0.029,
+       "vol24": 242.343915,
+       "end": "2026-12-31T23:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "Fed decisions (Sep–Dec)",
+     "slug": "fed-decisions-sepdec",
+     "url": "https://polymarket.com/event/fed-decisions-sepdec",
+     "end": "2026-12-09T23:59:00Z",
+     "vol24": 60765.297254000005,
+     "markets": [
+      {
+       "q": "Will the Fed Hike–Pause–Pause in the next three decisions (Sep–Oct–Dec)?",
+       "label": "Hike–Pause–Pause",
+       "yes": 0.0695,
+       "d1": 0.044,
+       "vol24": 33384.751906,
+       "end": "2026-12-09T23:59:00Z"
+      },
+      {
+       "q": "Will the Fed Hike–Pause–Hike in the next three decisions (Sep–Oct–Dec)?",
+       "label": "Hike–Pause–Hike",
+       "yes": 0.9245,
+       "d1": -0.044,
+       "vol24": 19625.797013000003,
+       "end": "2026-12-09T23:59:00Z"
+      },
+      {
+       "q": "Will the Fed decide differently in the next three decisions (Sep–Oct–Dec)?",
+       "label": "Other",
+       "yes": 0.005,
+       "d1": -0.0005,
+       "vol24": 7754.748335000001,
+       "end": "2026-12-09T23:59:00Z"
       }
      ]
     },
@@ -648,31 +722,64 @@
      "slug": "how-high-will-inflation-get-in-2026",
      "url": "https://polymarket.com/event/how-high-will-inflation-get-in-2026",
      "end": "2027-02-01T04:59:00Z",
-     "vol24": 52703.114608,
+     "vol24": 55234.217216,
      "markets": [
       {
        "q": "Will inflation reach more than 5% in 2026?",
        "label": "Above 5%",
-       "yes": 0.038,
-       "d1": -0.007,
-       "vol24": 28635.51,
+       "yes": 0.032,
+       "d1": -0.013,
+       "vol24": 31159.73,
        "end": "2027-01-01T04:59:00Z"
       },
       {
        "q": "Will inflation reach more than 4.5% in 2026?",
        "label": "Above 4.5%",
-       "yes": 0.0485,
-       "d1": -0.0365,
-       "vol24": 24067.604608,
+       "yes": 0.054,
+       "d1": -0.031,
+       "vol24": 24057.447216,
        "end": "2027-01-01T04:59:00Z"
       },
       {
-       "q": "Will inflation reach more than 6% in 2026?",
-       "label": "Above 6%",
+       "q": "Will inflation reach more than 8% in 2026?",
+       "label": "Above 8%",
        "yes": 0.0105,
-       "d1": null,
-       "vol24": 0.0,
+       "d1": -0.0005,
+       "vol24": 17.04,
        "end": "2027-01-01T04:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "Fed decisions (Oct-Jan)",
+     "slug": "fed-decisions-oct-jan",
+     "url": "https://polymarket.com/event/fed-decisions-oct-jan",
+     "end": "2027-01-27T23:59:00Z",
+     "vol24": 11680.372793,
+     "markets": [
+      {
+       "q": "Will the Fed Pause-Hike-Hike in the next three decisions (Oct-Dec-Jan)?",
+       "label": "Pause-Hike-Hike",
+       "yes": 0.5465,
+       "d1": -0.0695,
+       "vol24": 3714.5590960000004,
+       "end": "2027-01-27T23:59:00Z"
+      },
+      {
+       "q": "Will the Fed Pause-Pause-Hike in the next three decisions (Oct-Dec-Jan)?",
+       "label": "Pause-Pause-Hike",
+       "yes": 0.013,
+       "d1": 0.0085,
+       "vol24": 2234.4,
+       "end": "2027-01-27T23:59:00Z"
+      },
+      {
+       "q": "Will the Fed Pause-Pause-Pause in the next three decisions (Oct-Dec-Jan)?",
+       "label": "Pause-Pause-Pause",
+       "yes": 0.0345,
+       "d1": 0.032,
+       "vol24": 2057.86,
+       "end": "2027-01-27T23:59:00Z"
       }
      ]
     },
@@ -681,130 +788,31 @@
      "slug": "south-africa-annual-inflation-2026",
      "url": "https://polymarket.com/event/south-africa-annual-inflation-2026",
      "end": "2027-01-21T04:59:00Z",
-     "vol24": 10764.298139,
+     "vol24": 11676.840171,
      "markets": [
       {
        "q": "Will South African inflation be greater than 5.0% in 2026?",
        "label": ">5.0%",
-       "yes": 0.2755,
-       "d1": -0.134,
-       "vol24": 6824.328373,
+       "yes": 0.272,
+       "d1": -0.128,
+       "vol24": 6916.945717,
        "end": "2027-01-21T04:59:00Z"
       },
       {
        "q": "Will South African inflation be between 4.7% and 5.0% in 2026?",
        "label": "4.7-5.0%",
-       "yes": 0.473,
-       "d1": 0.103,
-       "vol24": 2228.533868,
+       "yes": 0.587,
+       "d1": 0.0925,
+       "vol24": 2929.6085559999997,
        "end": "2027-01-21T04:59:00Z"
       },
       {
        "q": "Will South African inflation be between 3.5% and 3.8% in 2026?",
        "label": "3.5-3.8%",
-       "yes": 0.0025,
-       "d1": null,
-       "vol24": 334.0,
+       "yes": 0.003,
+       "d1": 0.0005,
+       "vol24": 354.82,
        "end": "2027-01-20T00:00:00Z"
-      }
-     ]
-    },
-    {
-     "title": "Fed decisions December 2026 to March 2027?",
-     "slug": "fed-decisions-dec-mar",
-     "url": "https://polymarket.com/event/fed-decisions-dec-mar",
-     "end": "2027-03-17T23:59:00Z",
-     "vol24": 10274.802007,
-     "markets": [
-      {
-       "q": "Will the Fed hike-hike-hike in the next three decisions (Dec-Jan-Mar)?",
-       "label": "Hike-Hike-Hike",
-       "yes": 0.34,
-       "d1": -0.015,
-       "vol24": 5151.873865,
-       "end": "2027-03-17T23:59:00Z"
-      },
-      {
-       "q": "Will the Fed hike-pause-hike in the next three decisions (Dec-Jan-Mar)?",
-       "label": "Hike-Pause-Hike",
-       "yes": 0.285,
-       "d1": 0.06,
-       "vol24": 2863.233972,
-       "end": "2027-03-17T23:59:00Z"
-      },
-      {
-       "q": "Will the Fed hike-hike-pause in the next three decisions (Dec-Jan-Mar)?",
-       "label": "Hike-Hike-Pause",
-       "yes": 0.21,
-       "d1": -0.09,
-       "vol24": 1295.79002,
-       "end": "2027-03-17T23:59:00Z"
-      }
-     ]
-    },
-    {
-     "title": "U.K. Annual Inflation 2026",
-     "slug": "uk-annual-inflation-in-2026",
-     "url": "https://polymarket.com/event/uk-annual-inflation-in-2026",
-     "end": "2027-01-21T04:59:00Z",
-     "vol24": 9746.174744,
-     "markets": [
-      {
-       "q": "Will the UK’s 2026 inflation be between 3.0% and 3.4%?",
-       "label": "3.0–3.4%",
-       "yes": 0.455,
-       "d1": 0.195,
-       "vol24": 5771.735118,
-       "end": "2027-01-21T04:59:00Z"
-      },
-      {
-       "q": "Will the UK’s 2026 inflation be between 3.5% and 3.9%?",
-       "label": "3.5–3.9%",
-       "yes": 0.4485,
-       "d1": -0.0285,
-       "vol24": 2449.41967,
-       "end": "2027-01-21T04:59:00Z"
-      },
-      {
-       "q": "Will the UK’s 2026 inflation be between 4.0% and 4.4%?",
-       "label": "4.0-4.4%",
-       "yes": 0.047,
-       "d1": -0.0265,
-       "vol24": 487.7382329999999,
-       "end": "2027-01-21T04:59:00Z"
-      }
-     ]
-    },
-    {
-     "title": "Japan Core CPI YoY in 2026",
-     "slug": "japan-core-cpi-yoy-in-2026-20260617224131789",
-     "url": "https://polymarket.com/event/japan-core-cpi-yoy-in-2026-20260617224131789",
-     "end": "2027-04-01T03:59:00Z",
-     "vol24": 7703.015688,
-     "markets": [
-      {
-       "q": "Will Japan's core CPI increase by between 2.0 and 2.4% in 2026?",
-       "label": "2.0-2.4%",
-       "yes": 0.141,
-       "d1": -0.2225,
-       "vol24": 3994.13812,
-       "end": "2027-01-22T23:59:00Z"
-      },
-      {
-       "q": "Will Japan's core CPI increase by less than or equal to 1.9% in 2026?",
-       "label": "≤1.9%",
-       "yes": 0.836,
-       "d1": 0.2135,
-       "vol24": 3522.877568,
-       "end": "2027-01-22T23:59:00Z"
-      },
-      {
-       "q": "Will Japan's core CPI increase by between 2.5 and 2.9% in 2026?",
-       "label": "2.5-2.9%",
-       "yes": 0.0005,
-       "d1": -0.001,
-       "vol24": 186.0,
-       "end": "2027-01-22T23:59:00Z"
       }
      ]
     }
@@ -819,30 +827,30 @@
      "slug": "will-spy-hit-week-of-november-16-2026",
      "url": "https://polymarket.com/event/will-spy-hit-week-of-november-16-2026",
      "end": "2026-11-20T21:00:00Z",
-     "vol24": 15961.107741,
+     "vol24": 42513.561119,
      "markets": [
       {
-       "q": "Will S&P 500 (SPY) hit (HIGH) $740 Week of November 16 2026?",
-       "label": "↑ $740",
-       "yes": 0.0255,
-       "d1": -0.8645,
-       "vol24": 4238.771076,
+       "q": "Will S&P 500 (SPY) hit (HIGH) $755 Week of November 16 2026?",
+       "label": "↑ $755",
+       "yes": 0.022,
+       "d1": -0.023,
+       "vol24": 1124.1,
        "end": "2026-11-20T21:00:00Z"
       },
       {
-       "q": "Will S&P 500 (SPY) hit (LOW) $705 Week of November 16 2026?",
-       "label": "↓ $705",
-       "yes": 0.517,
-       "d1": 0.4855,
-       "vol24": 2112.491296,
+       "q": "Will S&P 500 (SPY) hit (HIGH) $750 Week of November 16 2026?",
+       "label": "↑ $750",
+       "yes": 0.05,
+       "d1": -0.007,
+       "vol24": 551.0799999999999,
        "end": "2026-11-20T21:00:00Z"
       },
       {
-       "q": "Will S&P 500 (SPY) hit (LOW) $715 Week of November 16 2026?",
-       "label": "↓ $715",
-       "yes": 0.895,
-       "d1": 0.82,
-       "vol24": 1778.6033689999997,
+       "q": "Will S&P 500 (SPY) hit (HIGH) $745 Week of November 16 2026?",
+       "label": "↑ $745",
+       "yes": 0.0325,
+       "d1": -0.0275,
+       "vol24": 275.0,
        "end": "2026-11-20T21:00:00Z"
       }
      ]
@@ -852,31 +860,97 @@
      "slug": "what-price-will-spy-hit-in-november-2026",
      "url": "https://polymarket.com/event/what-price-will-spy-hit-in-november-2026",
      "end": "2026-12-01T04:59:59.999Z",
-     "vol24": 8247.373849,
+     "vol24": 34666.608235,
      "markets": [
       {
-       "q": "Will S&P 500 (SPY) hit (LOW) $700 in November?",
-       "label": "↓ $700",
-       "yes": 0.625,
-       "d1": 0.46,
-       "vol24": 3052.42,
+       "q": "Will S&P 500 (SPY) hit (HIGH) $770 in November?",
+       "label": "↑ $770",
+       "yes": 0.0205,
+       "d1": -0.0595,
+       "vol24": 1957.99,
        "end": "2026-12-01T04:59:59.999Z"
       },
       {
-       "q": "Will S&P 500 (SPY) hit (LOW) $710 in November?",
-       "label": "↓ $710",
-       "yes": 0.88,
-       "d1": 0.62,
-       "vol24": 1339.0600000000002,
+       "q": "Will S&P 500 (SPY) hit (HIGH) $740 in November?",
+       "label": "↑ $740",
+       "yes": 0.115,
+       "d1": -0.285,
+       "vol24": 864.4595059999999,
        "end": "2026-12-01T04:59:59.999Z"
       },
       {
-       "q": "Will S&P 500 (SPY) hit (LOW) $680 in November?",
-       "label": "↓ $680",
-       "yes": 0.281,
-       "d1": 0.197,
-       "vol24": 596.2538490000001,
+       "q": "Will S&P 500 (SPY) hit (LOW) $670 in November?",
+       "label": "↓ $670",
+       "yes": 0.605,
+       "d1": 0.125,
+       "vol24": 862.0117109999999,
        "end": "2026-12-01T04:59:59.999Z"
+      }
+     ]
+    },
+    {
+     "title": "Bitcoin vs. Gold vs. S&P 500 in 2026",
+     "slug": "bitcoin-vs-gold-vs-sp-500-in-2026",
+     "url": "https://polymarket.com/event/bitcoin-vs-gold-vs-sp-500-in-2026",
+     "end": "2027-01-01T04:59:00Z",
+     "vol24": 25881.332291,
+     "markets": [
+      {
+       "q": "Will Bitcoin have the best performance in 2026?",
+       "label": "Bitcoin",
+       "yes": 0.0235,
+       "d1": 0.007,
+       "vol24": 9857.31181,
+       "end": "2027-01-01T04:59:00Z"
+      },
+      {
+       "q": "Will the S&P 500 have the best performance in 2026?",
+       "label": "S&P 500",
+       "yes": 0.935,
+       "d1": null,
+       "vol24": 8403.569562,
+       "end": "2027-01-01T04:59:00Z"
+      },
+      {
+       "q": "Will Gold have the best performance in 2026?",
+       "label": "Gold",
+       "yes": 0.0275,
+       "d1": -0.013,
+       "vol24": 7620.450919,
+       "end": "2027-01-01T04:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "S&P 500 (SPY) closes above ___ on November 20?",
+     "slug": "spy-closes-above-on-november-20-2026",
+     "url": "https://polymarket.com/event/spy-closes-above-on-november-20-2026",
+     "end": "2026-11-20T21:00:00Z",
+     "vol24": 11466.372315,
+     "markets": [
+      {
+       "q": "S&P 500 (SPY) closes above $715 on November 20?",
+       "label": "$715",
+       "yes": 0.0025,
+       "d1": -0.6125,
+       "vol24": 4840.891099,
+       "end": "2026-11-20T21:00:00Z"
+      },
+      {
+       "q": "S&P 500 (SPY) closes above $730 on November 20?",
+       "label": "$730",
+       "yes": 0.002,
+       "d1": -0.083,
+       "vol24": 4835.861512,
+       "end": "2026-11-20T21:00:00Z"
+      },
+      {
+       "q": "S&P 500 (SPY) closes above $720 on November 20?",
+       "label": "$720",
+       "yes": 0.01,
+       "d1": -0.48,
+       "vol24": 808.472867,
+       "end": "2026-11-20T21:00:00Z"
       }
      ]
     },
@@ -885,30 +959,30 @@
      "slug": "spx-hit-dec-2026",
      "url": "https://polymarket.com/event/spx-hit-dec-2026",
      "end": "2026-12-31T21:00:00Z",
-     "vol24": 7499.080870999999,
+     "vol24": 6991.653655,
      "markets": [
+      {
+       "q": "Will S&P 500 (SPX) hit $7,000 (LOW) in December?",
+       "label": "↓ $7,000",
+       "yes": 0.9995,
+       "d1": 0.3745,
+       "vol24": 1266.3567,
+       "end": "2026-12-31T21:00:00Z"
+      },
       {
        "q": "Will S&P 500 (SPX) hit $5,200 (LOW) in December?",
        "label": "↓ $5,200",
-       "yes": 0.049,
-       "d1": 0.009,
-       "vol24": 2914.976667,
+       "yes": 0.048,
+       "d1": 0.0085,
+       "vol24": 1242.0066669999999,
        "end": "2026-12-31T21:00:00Z"
       },
       {
-       "q": "Will S&P 500 (SPX) hit $7,200 (LOW) in December?",
-       "label": "↓ $7,200",
-       "yes": 0.9755,
-       "d1": 0.2255,
-       "vol24": 2054.420087,
-       "end": "2026-12-31T21:00:00Z"
-      },
-      {
-       "q": "Will S&P 500 (SPX) hit $6,200 (LOW) in December?",
-       "label": "↓ $6,200",
-       "yes": 0.2615,
-       "d1": 0.161,
-       "vol24": 758.2820969999999,
+       "q": "Will S&P 500 (SPX) hit $5,800 (LOW) in December?",
+       "label": "↓ $5,800",
+       "yes": 0.0955,
+       "d1": 0.0135,
+       "vol24": 1051.565926,
        "end": "2026-12-31T21:00:00Z"
       }
      ]
@@ -920,101 +994,68 @@
    "label": "AI・半導体",
    "events": [
     {
-     "title": "Will Anthropic’s valuation hit __ by December 31?",
-     "slug": "will-anthropics-valuation-hit-by-december-31",
-     "url": "https://polymarket.com/event/will-anthropics-valuation-hit-by-december-31",
-     "end": "2027-01-05T04:59:00Z",
-     "vol24": 614437.182793,
-     "markets": [
-      {
-       "q": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
-       "label": "↑$1.75T",
-       "yes": 0.24,
-       "d1": -0.31,
-       "vol24": 154204.521202,
-       "end": "2027-01-05T04:59:00Z"
-      },
-      {
-       "q": "Will Anthropic's valuation hit (HIGH) $3.0T by December 31?",
-       "label": "↑$3.0T",
-       "yes": 0.0275,
-       "d1": -0.0375,
-       "vol24": 42588.862743,
-       "end": "2027-01-05T04:59:00Z"
-      },
-      {
-       "q": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
-       "label": "↑$2.0T",
-       "yes": 0.13,
-       "d1": -0.27,
-       "vol24": 28265.48287399999,
-       "end": "2027-01-05T04:59:00Z"
-      }
-     ]
-    },
-    {
      "title": "Jensen Huang rejoins NVIDIA by...?",
      "slug": "jensen-huang-rejoins-nvidia-byptptpt",
      "url": "https://polymarket.com/event/jensen-huang-rejoins-nvidia-byptptpt",
      "end": "2028-01-01T04:59:00Z",
-     "vol24": 489051.604089,
+     "vol24": 579228.3817119999,
      "markets": [
       {
        "q": "Will Jensen Huang rejoin NVIDIA by November 30, 2026?",
        "label": "November 30, 2026",
-       "yes": 0.0125,
+       "yes": 0.0175,
        "d1": -0.002,
-       "vol24": 276568.80231900007,
+       "vol24": 332127.934219,
        "end": "2026-12-01T04:59:00Z"
       },
       {
        "q": "Will Jensen Huang rejoin NVIDIA by December 31, 2026?",
        "label": "December 31, 2026",
-       "yes": 0.053,
-       "d1": 0.001,
-       "vol24": 173552.27182199995,
+       "yes": 0.061,
+       "d1": 0.0095,
+       "vol24": 200758.15752599997,
        "end": "2027-01-01T04:59:00Z"
       },
       {
        "q": "Will Jensen Huang rejoin NVIDIA by December 31, 2027?",
        "label": "December 31, 2027",
-       "yes": 0.265,
-       "d1": -0.04,
-       "vol24": 37738.553247,
+       "yes": 0.305,
+       "d1": 0.03,
+       "vol24": 42986.814415999994,
        "end": "2028-01-01T04:59:00Z"
       }
      ]
     },
     {
-     "title": "Largest IPO by market cap in 2026?",
-     "slug": "largest-ipo-by-market-cap-in-2026-287",
-     "url": "https://polymarket.com/event/largest-ipo-by-market-cap-in-2026-287",
-     "end": "2027-01-02T04:59:00Z",
-     "vol24": 325929.91066299996,
+     "title": "Will Anthropic’s valuation hit __ by December 31?",
+     "slug": "will-anthropics-valuation-hit-by-december-31",
+     "url": "https://polymarket.com/event/will-anthropics-valuation-hit-by-december-31",
+     "end": "2027-01-05T04:59:00Z",
+     "vol24": 536987.658387,
      "markets": [
       {
-       "q": "Will SpaceX have the highest IPO Market Cap 2026?",
-       "label": "SpaceX",
-       "yes": 0.9885,
-       "d1": 0.0245,
-       "vol24": 166844.67929299996,
-       "end": "2027-01-02T04:59:00Z"
+       "q": "Will Anthropic's valuation hit (HIGH) $1.75T by December 31?",
+       "label": "↑$1.75T",
+       "yes": 0.205,
+       "d1": -0.18,
+       "vol24": 121215.121963,
+       "end": "2027-01-05T04:59:00Z"
       },
       {
-       "q": "Will OpenAI have the highest IPO Market Cap 2026?",
-       "label": "OpenAI",
-       "yes": 0.0005,
-       "d1": -0.001,
-       "vol24": 1566.65,
-       "end": "2026-12-31T00:00:00Z"
-      },
-      {
-       "q": "Will Revolut have the highest IPO Market Cap 2026?",
-       "label": "Revolut",
-       "yes": 0.0005,
+       "q": "Will Anthropic's valuation hit (LOW) $1.0T by December 31?",
+       "label": "↓$1.0T",
+       "yes": 0.695,
        "d1": null,
-       "vol24": 126.3,
-       "end": "2026-12-31T00:00:00Z"
+       "vol24": 40906.905055999996,
+       "end": "2027-01-05T04:59:00Z"
+      },
+      {
+       "q": "Will Anthropic's valuation hit (HIGH) $2.0T by December 31?",
+       "label": "↑$2.0T",
+       "yes": 0.125,
+       "d1": -0.06,
+       "vol24": 39971.781928,
+       "end": "2027-01-05T04:59:00Z"
       }
      ]
     },
@@ -1023,31 +1064,89 @@
      "slug": "next-ceo-of-nvidia",
      "url": "https://polymarket.com/event/next-ceo-of-nvidia",
      "end": "2029-01-01T04:59:00Z",
-     "vol24": 225166.40281499998,
+     "vol24": 295940.834567,
      "markets": [
       {
        "q": "Will there be no new be CEO of NVIDIA by December 31, 2028?",
        "label": "Jensen Huang (No Change)",
-       "yes": 0.11,
-       "d1": -0.0055,
-       "vol24": 123755.697177,
+       "yes": 0.1145,
+       "d1": 0.007,
+       "vol24": 174694.09294,
        "end": "2029-01-01T04:59:00Z"
       },
       {
        "q": "Will Colette Kress be the next CEO of NVIDIA?",
        "label": "Colette Kress",
-       "yes": 0.0905,
-       "d1": 0.0095,
-       "vol24": 40144.231013,
+       "yes": 0.08,
+       "d1": -0.0015,
+       "vol24": 62548.98014099999,
        "end": "2029-01-01T04:59:00Z"
       },
       {
        "q": "Will Rene Haas be the next CEO of NVIDIA?",
        "label": "Rene Haas",
-       "yes": 0.2595,
-       "d1": 0.003,
-       "vol24": 26444.200820000002,
+       "yes": 0.262,
+       "d1": 0.0035,
+       "vol24": 32151.570738,
        "end": "2029-01-01T04:59:00Z"
+      }
+     ]
+    },
+    {
+     "title": "Largest IPO by market cap in 2026?",
+     "slug": "largest-ipo-by-market-cap-in-2026-287",
+     "url": "https://polymarket.com/event/largest-ipo-by-market-cap-in-2026-287",
+     "end": "2027-01-02T04:59:00Z",
+     "vol24": 195823.78489399998,
+     "markets": [
+      {
+       "q": "Will SpaceX have the highest IPO Market Cap 2026?",
+       "label": "SpaceX",
+       "yes": 0.988,
+       "d1": -0.006,
+       "vol24": 85035.654833,
+       "end": "2027-01-02T04:59:00Z"
+      },
+      {
+       "q": "Will OpenAI have the highest IPO Market Cap 2026?",
+       "label": "OpenAI",
+       "yes": 0.0005,
+       "d1": null,
+       "vol24": 0.0,
+       "end": "2026-12-31T00:00:00Z"
+      },
+      {
+       "q": "Will ByteDance have the highest IPO Market Cap 2026?",
+       "label": "ByteDance",
+       "yes": 0.0005,
+       "d1": null,
+       "vol24": 0.0,
+       "end": "2026-12-31T00:00:00Z"
+      }
+     ]
+    },
+    {
+     "title": "AI bubble burst by...?",
+     "slug": "ai-bubble-burst-by",
+     "url": "https://polymarket.com/event/ai-bubble-burst-by",
+     "end": "2027-07-01T03:59:00Z",
+     "vol24": 173409.24050499997,
+     "markets": [
+      {
+       "q": "AI bubble burst in 2026?",
+       "label": "December 31, 2026",
+       "yes": 0.5495,
+       "d1": 0.4705,
+       "vol24": 155102.79919299998,
+       "end": "2027-01-01T04:59:00Z"
+      },
+      {
+       "q": "AI bubble burst by June 30, 2027?",
+       "label": "June 30, 2027",
+       "yes": 0.645,
+       "d1": 0.45,
+       "vol24": 18306.441312,
+       "end": "2027-07-01T03:59:00Z"
       }
      ]
     },
@@ -1056,64 +1155,31 @@
      "slug": "which-company-has-best-ai-model-end-of-2026",
      "url": "https://polymarket.com/event/which-company-has-best-ai-model-end-of-2026",
      "end": "2026-12-31T17:00:00Z",
-     "vol24": 122038.97044000002,
+     "vol24": 128311.43047400001,
      "markets": [
       {
        "q": "Will Google have the best AI model at the end of December 2026?",
        "label": "Google",
        "yes": 0.855,
-       "d1": 0.02,
-       "vol24": 42021.53487100002,
+       "d1": 0.03,
+       "vol24": 42280.872415000005,
        "end": "2026-12-31T17:00:00Z"
       },
       {
        "q": "Will Anthropic have the best AI model at the end of December 2026?",
        "label": "Anthropic",
-       "yes": 0.095,
-       "d1": -0.015,
-       "vol24": 27300.415973000006,
+       "yes": 0.12,
+       "d1": -0.005,
+       "vol24": 28082.318632,
        "end": "2026-12-31T17:00:00Z"
       },
       {
-       "q": "Will Meta have the best AI model at the end of December 2026?",
-       "label": "Meta",
-       "yes": 0.0075,
-       "d1": null,
-       "vol24": 11950.581,
+       "q": "Will OpenAI have the best AI model at the end of December 2026?",
+       "label": "OpenAI",
+       "yes": 0.0195,
+       "d1": -0.0075,
+       "vol24": 12208.61307,
        "end": "2026-12-31T17:00:00Z"
-      }
-     ]
-    },
-    {
-     "title": "Largest Company end of December 2026?",
-     "slug": "largest-company-end-of-december-2026",
-     "url": "https://polymarket.com/event/largest-company-end-of-december-2026",
-     "end": "2027-01-01T04:59:00Z",
-     "vol24": 75689.74967399999,
-     "markets": [
-      {
-       "q": "Will Apple be the largest company in the world by market cap on December 31?",
-       "label": "Apple",
-       "yes": 0.9325,
-       "d1": 0.03,
-       "vol24": 27527.270766999995,
-       "end": "2027-01-01T04:59:00Z"
-      },
-      {
-       "q": "Will NVIDIA be the largest company in the world by market cap on December 31?",
-       "label": "NVIDIA",
-       "yes": 0.055,
-       "d1": 0.005,
-       "vol24": 15359.241907000001,
-       "end": "2027-01-01T04:59:00Z"
-      },
-      {
-       "q": "Will Microsoft be the largest company in the world by market cap on December 31?",
-       "label": "Microsoft",
-       "yes": 0.0075,
-       "d1": -0.001,
-       "vol24": 13693.609999999999,
-       "end": "2027-01-01T04:59:00Z"
       }
      ]
     }
