@@ -1,4 +1,4 @@
-fetched_at=2026-11-21T06:02:00+09:00
+fetched_at=2026-11-21T11:09:40+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
@@ -11,17 +11,17 @@ theme rates: 6 events
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
     - US announces end of Iranian blockade by...?
-    - Iran leadership change by...?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
-    - What will WTI Crude Oil (WTI) hit in November 2026?
     - Will the U.S. invade Iran before 2027?
+    - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - Iran leadership change by...?
+    - Iran full airspace closure by...?
 theme trump: 6 events
     - Fed Decision in December?
     - Clarity Act (H.R.3633) signed into law in 2026?
     - Prime Minister of Israel after the next election?
-    - US announces end of Iranian blockade by...?
     - Fed Decision in January?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - US announces end of Iranian blockade by...?
+    - Will the U.S. invade Iran before 2027?
 theme tariff: 1 events
     - Canadian unwrought aluminum duty rate on December 31, 2027?
 theme recession: 1 events
@@ -30,20 +30,18 @@ theme inflation: 6 events
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
     - Fed decisions (Sep–Dec)
-    - How high will inflation get in 2026?
     - Fed decisions (Oct-Jan)
-    - South Africa Annual Inflation 2026
-theme stocks: 5 events
-    - What will S&P 500 (SPY) hit Week of November 16 2026?
+    - How low will 10-year Treasury yield get before 2027?
+    - U.K. Annual Inflation 2026
+theme stocks: 3 events
     - What will S&P 500 (SPY) hit in November 2026?
     - Bitcoin vs. Gold vs. S&P 500 in 2026
-    - S&P 500 (SPY) closes above ___ on November 20?
     - What will S&P 500 (SPX) hit by end of December?
 theme ai_chips: 6 events
     - Jensen Huang rejoins NVIDIA by...?
     - Will Anthropic’s valuation hit __ by December 31?
     - Next CEO of NVIDIA?
-    - Largest IPO by market cap in 2026?
     - AI bubble burst by...?
     - Which company has best AI model end of 2026?
+    - Largest Company end of December 2026?
 theme fx: 0 events
