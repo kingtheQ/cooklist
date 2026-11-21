@@ -1,27 +1,27 @@
-fetched_at=2026-11-21T19:55:19+09:00
+fetched_at=2026-11-22T02:56:56+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
     - How many Fed rate hikes in 2026?
-    - Another Fed rate hike in 2026?
     - How many Fed rate cuts in 2026?
-    - Fed decisions (Sep–Dec)
+    - Another Fed rate hike in 2026?
+    - Fed decisions (Oct-Jan)
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
     - Will the U.S. invade Iran before 2027?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
     - US announces end of Iranian blockade by...?
+    - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - Will the Iranian regime fall before 2027?
     - What will WTI Crude Oil (WTI) hit in November 2026?
-    - Iran full airspace closure by...?
 theme trump: 6 events
     - Fed Decision in December?
-    - Clarity Act (H.R.3633) signed into law in 2026?
-    - Fed Decision in January?
     - Will the U.S. invade Iran before 2027?
+    - US announces end of Iranian blockade by...?
+    - Fed Decision in January?
     - Prime Minister of Israel after the next election?
-    - US x Iran Effective Ceasefire begins by...? (2 week pause)
+    - Clarity Act (H.R.3633) signed into law in 2026?
 theme tariff: 1 events
     - Canadian unwrought aluminum duty rate on December 31, 2027?
 theme recession: 1 events
@@ -29,18 +29,17 @@ theme recession: 1 events
 theme inflation: 5 events
     - How many Fed rate hikes in 2026?
     - Another Fed rate hike in 2026?
-    - Fed decisions (Sep–Dec)
     - Fed decisions (Oct-Jan)
+    - Fed decisions (Sep–Dec)
     - How low will 10-year Treasury yield get before 2027?
-theme stocks: 3 events
-    - What will S&P 500 (SPY) hit in November 2026?
-    - Bitcoin vs. Gold vs. S&P 500 in 2026
+theme stocks: 2 events
     - What will S&P 500 (SPX) hit by end of December?
+    - What will S&P 500 (SPY) hit in November 2026?
 theme ai_chips: 6 events
     - Jensen Huang rejoins NVIDIA by...?
-    - Will Anthropic’s valuation hit __ by December 31?
     - Next CEO of NVIDIA?
     - AI bubble burst by...?
-    - Largest Company end of December 2026?
     - Anthropic closes below IPO price ($83) by...?
+    - Largest Company end of December 2026?
+    - Will Anthropic’s valuation hit __ by December 31?
 theme fx: 0 events
