@@ -1,12 +1,12 @@
-fetched_at=2026-11-23T10:36:20+09:00
+fetched_at=2026-11-23T11:55:26+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cyom,deploying,description,elapsed,enableNegRisk,enableOrderBook,endDate,ended,eventDate,eventMetadata,eventWeek,featured,finishedTimestamp,gameId,icon,id,image,liquidity,liquidityClob,live,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,period,resolutionSource,restricted,score,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sport,startDate,startTime,tags,teams,ticker,title,turnProviderId,updatedAt,usId,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
     - How many Fed rate cuts in 2026?
-    - NVIDIA VP Kimberly Powell announced resignation or removal by...?
     - Another Fed rate hike in 2026?
+    - NVIDIA VP Kimberly Powell announced resignation or removal by...?
     - Fed decisions (Sep–Dec)
 theme oil_iran: 6 events
     - Israel x Iran ceasefire continues through...?
@@ -28,20 +28,19 @@ theme recession: 3 events
     - China Annual GDP Growth 2026
     - November 2026 Unemployment Rate - Canada
     - Eurozone GDP growth in Q4 2026
-theme inflation: 6 events
+theme inflation: 5 events
     - Another Fed rate hike in 2026?
     - Fed decisions (Sep–Dec)
-    - Fed decisions (Oct-Jan)
     - Argentina Annual Inflation 2026
-    - How low will 10-year Treasury yield get before 2027?
     - What will gas hit by end of November?
+    - Dozen eggs price in November?
 theme stocks: 1 events
     - Bitcoin vs. Gold vs. S&P 500 in 2026
 theme ai_chips: 6 events
-    - Next CEO of NVIDIA?
     - Jensen Huang rejoins NVIDIA by...?
+    - Next CEO of NVIDIA?
     - Anthropic closes below IPO price ($83) by...?
-    - Anthropic announces bankruptcy by...?
     - Will Anthropic’s valuation hit __ by December 31?
+    - Anthropic announces bankruptcy by...?
     - Largest Company end of December 2026?
 theme fx: 0 events
