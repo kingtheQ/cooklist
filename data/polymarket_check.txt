@@ -1,4 +1,4 @@
-fetched_at=2026-11-25T07:59:34+09:00
+fetched_at=2026-11-25T13:57:21+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,new,openInterest,pendingDeployment,resolutionSource,restricted,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
@@ -14,30 +14,31 @@ theme oil_iran: 6 events
     - What will WTI Crude Oil (WTI) hit in November 2026?
     - US-Iran Final Nuclear Deal by…?
     - Will the Iranian regime fall before 2027?
-    - Will the U.S. invade Iran before 2027?
+    - Iran leadership change by...?
 theme trump: 6 events
     - Fed Decision in December?
     - Prime Minister of Israel after the next election?
     - Marco Rubio out as Secretary of State by...?
-    - Fed Decision in January?
     - US announces end of Iranian blockade by...?
-    - Jensen Huang divorce by...?
+    - Fed Decision in January?
+    - Venezuela leader end of 2026?
 theme tariff: 2 events
     - Canadian unwrought aluminum duty rate on December 31, 2027?
     - U.S. tariff rate on China on December 31, 2026?
 theme recession: 1 events
     - US recession by end of 2027?
-theme inflation: 4 events
+theme inflation: 5 events
     - Another Fed rate hike in 2026?
     - How many Fed rate hikes in 2026?
-    - What will gas hit by end of November?
     - Mexico Annual Inflation 2026
+    - Brazil Annual Inflation 2026
+    - What will gas hit by end of November?
 theme stocks: 0 events
 theme ai_chips: 6 events
     - New NVIDIA CEO named by December 31, 2026?
     - Fourth Jensen Huang affair reported by...?
     - H100 average rental price in January 2027?
-    - Jensen Huang out as NVIDIA CEO again by...?
     - Jensen Huang admits to another affair with a woman by December 31?
+    - Jensen Huang out as NVIDIA CEO again by...?
     - Anthropic closes below IPO price ($83) by...?
 theme fx: 0 events
