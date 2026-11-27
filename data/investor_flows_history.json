@@ -3,7 +3,7 @@
  "market": "東証の現物・差引=買い−売り。era=old は旧市場(一部+二部+マザーズ+JASDAQ)、era=new はプライム+スタンダード+グロース",
  "source": "JPX 投資部門別売買状況(週次) https://www.jpx.co.jp/markets/statistics-equities/investor-type/index.html",
  "note": "scripts/backfill_investor_flows.py が過去の全週を取り込んだもの。市場区分が旧→新に変わる継ぎ目は era で見分ける。",
- "updated": "2026-11-19",
+ "updated": "2026-11-27",
  "weeks": [
   {
    "from": "2016-01-04",
@@ -4531,6 +4531,14 @@
    "foreign": -3126,
    "individual": -3615,
    "trustbank": 3935,
+   "era": "new"
+  },
+  {
+   "from": "2026-11-16",
+   "to": "2026-11-20",
+   "foreign": -9187,
+   "individual": 1227,
+   "trustbank": 1611,
    "era": "new"
   }
  ]
