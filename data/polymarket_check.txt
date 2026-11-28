@@ -1,11 +1,11 @@
-fetched_at=2026-11-28T12:52:01+09:00
+fetched_at=2026-11-28T13:02:06+09:00
 events_fetched=500
 event_keys=active,archived,automaticallyActive,closed,commentCount,competitive,createdAt,creationDate,cumulativeMarkets,cyom,deploying,deployingTimestamp,description,enableNegRisk,enableOrderBook,endDate,estimateValue,eventMetadata,featured,featuredOrder,gmpChartMode,icon,id,image,liquidity,liquidityClob,markets,negRisk,negRiskAugmented,negRiskMarketID,new,openInterest,pendingDeployment,resolutionSource,restricted,series,seriesSlug,showAllOutcomes,showMarketImages,slug,sortBy,startDate,tags,ticker,title,updatedAt,version,volume,volume1mo,volume1wk,volume1yr,volume24hr
 theme rates: 6 events
     - Fed Decision in December?
     - Fed Decision in January?
-    - How many Fed rate cuts in 2026?
     - NVIDIA VP Kimberly Powell announced resignation or removal by...?
+    - How many Fed rate cuts in 2026?
     - Fed Decision in March?
     - Bank of England decision in December?
 theme oil_iran: 6 events
@@ -41,5 +41,5 @@ theme ai_chips: 6 events
     - H100 average rental price in January 2027?
     - Jensen Huang out as NVIDIA CEO again by...?
     - H200 average rental price in December 2026?
-    - H100 average rental price in December 2026?
+    - B300 average rental price in December 2026?
 theme fx: 0 events
